@@ -18,6 +18,7 @@ import data from "./Sections/Data/designBlocksData";
 import BuiltByDevelopers from "./Components/BuiltByDevelopers.vue";
 import PresentationTestimonials from "./Sections/PresentationTestimonials.vue";
 import PresentationInformation from "./Sections/PresentationInformation.vue";
+import PresentationAbout from "./Sections/PresentationAbout.vue";
 
 //images
 import vueMkHeader from "@/assets/img/vue-mk-header.jpg";
@@ -62,11 +63,10 @@ onUnmounted(() => {
               class="text-white pt-3 mt-n5 me-2"
               :style="{ display: 'inline-block ' }"
             >
-              Material Kit 2
+              {{ $t('welcomeTitle') }}
             </h1>
             <p class="lead text-white px-5 mt-3" :style="{ fontWeight: '500' }">
-              Start the Development With Bootstrap 5 Design System inspired by
-              Material Design.
+              {{ $t('welcomeMsg') }}
             </p>
           </div>
         </div>
@@ -76,6 +76,7 @@ onUnmounted(() => {
 
   <div class="card card-body blur shadow-blur mx-3 mx-md-4 mt-n6">
     <PresentationCounter />
+    <PresentationAbout/>
     <PresentationInformation />
     <PresentationExample :data="data" />
     <PresentationPages />

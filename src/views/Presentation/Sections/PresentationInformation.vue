@@ -13,20 +13,18 @@ import DefaultInfoCard from "../../../examples/cards/infoCards/DefaultInfoCard.v
             <RotatingCardFront
               image="https://images.unsplash.com/photo-1569683795645-b62e50fbf103?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=987&q=80"
               icon="touch_app"
-              title="Feel the <br /> Material Kit"
-              description="All the Bootstrap components that you need in a development have been
-        re-design with the new look."
+              title="Crafting Intelligent <br /> Digital Experiences"
+              description="I build scalable software systems with a strong balance of engineering, analysis, and human-centered design. I bring ideas into polished, functional, and user-friendly products."
             />
 
             <RotatingCardBack
               image="https://images.unsplash.com/photo-1498889444388-e67ea62c464b?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1365&q=80"
-              title="Discover More"
-              description="You will save a lot of time going from prototyping to full-functional
-                code because all elements are implemented."
+              title="Let's Connect"
+              description="If you're looking for a reliable developer who can transform ideas into well-engineered, user-focused solutions — I'd be happy to connect."
               :action="[
                 {
                   route: './/sections/page-sections/hero-sections.html',
-                  label: 'Start with Headers',
+                  label: 'Contact me',
                 },
               ]"
             />
@@ -36,31 +34,27 @@ import DefaultInfoCard from "../../../examples/cards/infoCards/DefaultInfoCard.v
           <div class="row justify-content-start">
             <DefaultInfoCard
               icon="content_copy"
-              title="Full Documentation"
-              description="Built by developers for developers. Check the foundation and
-                  you will find everything inside our documentation."
+              title="Full-Cycle Engineering"
+              description="From wireframes to deployment, I develop complete digital experiences with clean architecture and maintainable code."
             />
             <DefaultInfoCard
               icon="flip_to_front"
-              title="Bootstrap 5 Ready"
-              description="The world’s most popular front-end open source toolkit,
-                  featuring Sass variables and mixins."
+              title="Insight-Driven System Analysis"
+              description="I translate business needs into technical solutions, ensuring systems are scalable, efficient, and easy to maintain."
             />
           </div>
           <div class="row justify-content-start mt-5">
             <DefaultInfoCard
               class="mt-3"
               icon="price_change"
-              title="Save Time & Money"
-              description="Creating your design from scratch with dedicated designers can
-                be very expensive. Start with our Design System."
+              title="Reliable Data Foundations"
+              description="I design performant, secure, and well-structured databases that keep applications fast and trustworthy."
             />
             <DefaultInfoCard
               class="mt-3"
               icon="devices"
-              title="Fully Responsive"
-              description="Regardless of the screen size, the website content will
-                  naturally fit the given resolution."
+              title="Intuitive UI & Meaningful UX"
+              description="I blend design and psychology to craft interfaces people enjoy — visually appealing, consistent, and purpose-driven."
             />
           </div>
         </div>

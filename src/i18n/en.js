@@ -1,4 +1,6 @@
 const en = {
+    english: "English",
+    chinese: "Chinese",
     fullName: "Randy Setiawan",
     welcomeTitle: "Hi there, I'am Randy Setiawan",
     welcomeMsg: "A Full-stack Web and Mobile App Developer, Information Systems graduate specializing in Digital Technology",

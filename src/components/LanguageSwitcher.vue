@@ -1,10 +1,10 @@
 <template>
-  <div class="dropdown">
+  <div class="dropdown" style="padding: 0 1rem">
     <button
       class="btn bg-white text-dark px-3 py-2 dropdown-toggle d-flex align-items-center material-dropdown"
       type="button"
       data-bs-toggle="dropdown"
-      style="margin-bottom: 0;margin-left: 1rem;"
+      style="margin-bottom: 0"
     >
       <img :src="currentFlag" class="flag-icon" />
       <i class="material-icons-round ms-2 arrow-icon">expand_more</i>
@@ -13,12 +13,12 @@
     <ul class="dropdown-menu mt-2 shadow-sm border-radius-lg">
       <li>
         <a class="dropdown-item d-flex align-items-center" @click="setLang('en')">
-          <img :src="flags.en" class="flag-icon me-2" /> English
+          <img :src="flags.en" class="flag-icon me-2" /> {{ $t('english') }}
         </a>
       </li>
       <li>
         <a class="dropdown-item d-flex align-items-center" @click="setLang('zn')">
-          <img :src="flags.zn" class="flag-icon me-2" /> 中文
+          <img :src="flags.zn" class="flag-icon me-2" /> {{ $t('chinese') }}
         </a>
       </li>
     </ul>
@@ -102,5 +102,13 @@ export default {
 /* Hide Bootstrap arrow */
 .dropdown-toggle::after {
   display: none !important;
+}
+
+/* align when mobile size */
+@media (max-width: 991px) {
+  .table-responsive-lg {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
 }
 </style>

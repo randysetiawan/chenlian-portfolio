@@ -1,4 +1,6 @@
 const zn = {
+    english: "英文",
+    chinese: "中文",
     fullName: "陈利安",
     welcomeTitle: "大家好，我是陈利安",
     welcomeMsg: "全端网站和移动应用开发员，信息系统毕业生专攻数字技术",

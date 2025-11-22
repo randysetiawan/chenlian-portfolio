@@ -16,123 +16,39 @@ Coded by www.creative-tim.com
 const imagesPrefix =
   "https://raw.githubusercontent.com/creativetimofficial/public-assets/master/material-design-system/presentation/sections";
 
-import imgPricing from "@/assets/img/pricing.png";
-import imgFeatures from "@/assets/img/features.png";
-import imgBlogPosts from "@/assets/img/blog-posts.png";
-import imgTestimonials from "@/assets/img/testimonials.png";
-import imgTeam from "@/assets/img/team.png";
-import imgStat from "@/assets/img/stat.png";
-import imgContent from "@/assets/img/content.png";
 import imgPagination from "@/assets/img/pagination.png";
 import imgAlert from "@/assets/img/alerts.jpg";
 import imgPopover from "@/assets/img/popovers.jpg";
 import imgModal from "@/assets/img/modals.jpg";
 import imgDropdowns from "@/assets/img/dropdowns.jpg";
+import imgAimsProject from "@/assets/img/aims_project.jpeg";
+import imgDmlsProject from "@/assets/img/dmls_project.jpeg"; 
+import imgKtaProject from "@/assets/img/kta_project.jpeg"; 
 
 export default [
   {
-    heading: "Design Blocks",
+    heading: "Projects",
     description:
       "A selection of 45 page sections that fit perfectly in any combination",
     items: [
       {
-        image: `${imagesPrefix}/headers.jpg`,
-        title: "Page Headers",
-        subtitle: "10 Examples",
-        route: "page-headers",
-        pro: false
+        image: imgAimsProject,
+        title: "Audit Information Management Systems",
+        subtitle: "Designed exclusively for managing audit-related files",
+        route: "https://www.linkedin.com/in/chenlian/details/projects/1737348405778/single-media-viewer/?profileId=ACoAADeZHqsBj5nLn1_N3HJpuhaE1MMQaJ0oGYc",
       },
       {
-        image: imgFeatures,
-        title: "Features",
-        subtitle: "14 Examples",
-        route: "page-features",
-        pro: false
+        image: imgDmlsProject,
+        title: "Digital Meeting Log System",
+        subtitle: "Designed exclusively for top-level management in KORINDO GROUP.",
+        route: "https://www.linkedin.com/in/chenlian/details/projects/1918198512/multiple-media-viewer/?profileId=ACoAADeZHqsBj5nLn1_N3HJpuhaE1MMQaJ0oGYc&treasuryMediaId=1704872732167",
       },
       {
-        image: imgPricing,
-        title: "Pricing",
-        subtitle: "8 Examples",
-        route: "presentation",
-        pro: true
+        image: imgKtaProject,
+        title: "KORINDO - TSE Appreciation",
+        subtitle: "This application allows employees to recommend their colleagues based on exceptional performance",
+        route: "https://www.linkedin.com/in/chenlian/details/projects/1737348405778/single-media-viewer/?profileId=ACoAADeZHqsBj5nLn1_N3HJpuhaE1MMQaJ0oGYc",
       },
-      {
-        image: `${imagesPrefix}/faq.jpg`,
-        title: "FAQ",
-        subtitle: "1 Example",
-        route: "presentation",
-        pro: true
-      },
-      {
-        image: imgBlogPosts,
-        title: "Blog Posts",
-        subtitle: "11 Examples",
-        route: "presentation",
-        pro: true
-      },
-      {
-        image: imgTestimonials,
-        title: "Testimonials",
-        subtitle: "11 Examples",
-        route: "presentation",
-        pro: true
-      },
-      {
-        image: imgTeam,
-        title: "Teams",
-        subtitle: "6 Examples",
-        route: "presentation",
-        pro: true
-      },
-      {
-        image: imgStat,
-        title: "Stats",
-        subtitle: "3 Examples",
-        route: "presentation",
-        pro: true
-      },
-      {
-        image: `${imagesPrefix}/call-to-action.jpg`,
-        title: "Call to Actions",
-        subtitle: "8 Examples",
-        route: "presentation",
-        pro: true
-      },
-      {
-        image: `${imagesPrefix}/projects.jpg`,
-        title: "Applications",
-        subtitle: "6 Examples",
-        route: "presentation",
-        pro: true
-      },
-      {
-        image: `${imagesPrefix}/logo-area.jpg`,
-        title: "Logo Areas",
-        subtitle: "4 Examples",
-        route: "presentation",
-        pro: true
-      },
-      {
-        image: `${imagesPrefix}/footers.jpg`,
-        title: "Footers",
-        subtitle: "10 Examples",
-        route: "presentation",
-        pro: true
-      },
-      {
-        image: `${imagesPrefix}/general-cards.jpg`,
-        title: "General Cards",
-        subtitle: "9 Examples",
-        route: "presentation",
-        pro: true
-      },
-      {
-        image: imgContent,
-        title: "Content Sections",
-        subtitle: "8 Examples",
-        route: "presentation",
-        pro: true
-      }
     ]
   },
   {

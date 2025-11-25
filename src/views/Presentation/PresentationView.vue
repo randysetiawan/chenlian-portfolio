@@ -19,6 +19,7 @@ import BuiltByDevelopers from "./Components/BuiltByDevelopers.vue";
 import PresentationTestimonials from "./Sections/PresentationTestimonials.vue";
 import PresentationInformation from "./Sections/PresentationInformation.vue";
 import PresentationAbout from "./Sections/PresentationAbout.vue";
+import PresentationExperienceEducation from "./Sections/PresentationExperienceEducation.vue";
 
 //images
 import vueMkHeader from "@/assets/img/vue-mk-header.jpg";
@@ -29,7 +30,6 @@ import logoVue from "@/assets/img/logos/vue.jpg";
 import logoAngular from "@/assets/img/logos/angular.jpg";
 import logoReact from "@/assets/img/logos/react.jpg";
 import logoSketch from "@/assets/img/logos/sketch.jpg";
-import PresentationExperienceEducation from "./Sections/PresentationExperienceEducation.vue";
 
 //hooks
 const body = document.getElementsByTagName("body")[0];

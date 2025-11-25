@@ -13,17 +13,26 @@ Coded by www.creative-tim.com
 * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 */
 
-const imagesPrefix =
-  "https://raw.githubusercontent.com/creativetimofficial/public-assets/master/material-design-system/presentation/sections";
-
-import imgPagination from "@/assets/img/pagination.png";
-import imgAlert from "@/assets/img/alerts.jpg";
-import imgPopover from "@/assets/img/popovers.jpg";
-import imgModal from "@/assets/img/modals.jpg";
-import imgDropdowns from "@/assets/img/dropdowns.jpg";
 import imgAimsProject from "@/assets/img/aims_project.jpeg";
-import imgDmlsProject from "@/assets/img/dmls_project.jpeg"; 
-import imgKtaProject from "@/assets/img/kta_project.jpeg"; 
+import imgDmlsProject from "@/assets/img/dmls_project.jpeg";
+import imgKtaProject from "@/assets/img/kta_project.jpeg";
+import imgKhmProject from "@/assets/img/khm_project.jpeg";
+import imgPayrollProject from "@/assets/img/payroll_project.jpeg";
+import imgSsoProject from "@/assets/img/sso_project.jpeg";
+import imgOpimProject from "@/assets/img/opim_project.jpeg";
+import imgPmsProject from "@/assets/img/pms_project.jpeg";
+import imgMebtoonProject from "@/assets/img/mebtoon_project.jpeg";
+import imgLogicalProgrammingWithCpp from "@/assets/img/logical_programming_with_cpp.png";
+import imgSqlCourse from "@/assets/img/sql_course.png";
+import imgMendixDeveloperCertification from "@/assets/img/mendix_developer_certification.png";
+import imgResponsiveWebDesign from "@/assets/img/responsive_web_design.png";
+import imgHsk1 from "@/assets/img/hsk1.png";
+import imgCertificateOfInternship from "@/assets/img/certificate_of_internship.png";
+import imgCertificateOfCompletion from "@/assets/img/certificate_of_completion.png";
+import imgHsk2 from "@/assets/img/hsk2.jpeg";
+import imgCertificateOfPresentation from "@/assets/img/certificate_of_presentation.png";
+import imgHsk3AndHskk7 from "@/assets/img/hsk3_and_hskk7.jpeg";
+import imgJakartaEe from "@/assets/img/jakarta-ee-logo.svg";
 
 export default [
   {
@@ -49,180 +58,121 @@ export default [
         subtitle: "This application allows employees to recommend their colleagues based on exceptional performance",
         route: "https://www.linkedin.com/in/chenlian/details/projects/1737348405778/single-media-viewer/?profileId=ACoAADeZHqsBj5nLn1_N3HJpuhaE1MMQaJ0oGYc",
       },
+      {
+        image: imgKhmProject,
+        title: "KORINDO History Museum",
+        subtitle: "Digital portal designed to immerse users in the rich history and heritage of the KORINDO conglomerate",
+        route: "https://www.linkedin.com/in/chenlian/overlay/Project/349324731/treasury/?profileId=ACoAADeZHqsBj5nLn1_N3HJpuhaE1MMQaJ0oGYc",
+      },
+      {
+        image: imgPayrollProject,
+        title: "Payroll HRIS",
+        subtitle: "This system is designed to automate complex payroll calculations, track employee attendance, manage leave requests, and ensure compliance with local labor laws",
+        route: "https://www.linkedin.com/in/chenlian/overlay/Project/42049818/treasury/?profileId=ACoAADeZHqsBj5nLn1_N3HJpuhaE1MMQaJ0oGYc",
+      },
+      {
+        image: imgSsoProject,
+        title: "Single Sign-On",
+        subtitle: "Designed to seamlessly integrate Single Sign-On capabilities within all applications in KORINDO GROUP",
+        route: "https://www.linkedin.com/in/chenlian/overlay/Project/1673774151/treasury/?profileId=ACoAADeZHqsBj5nLn1_N3HJpuhaE1MMQaJ0oGYc",
+      },
+      {
+        image: imgOpimProject,
+        title: "Oil Palm Integrated Management",
+        subtitle: "Specifically designed for Tunas Sawa Erma Group to empower sustainable palm oil operations",
+        route: "https://www.linkedin.com/in/chenlian/overlay/Project/1712414881/treasury/?profileId=ACoAADeZHqsBj5nLn1_N3HJpuhaE1MMQaJ0oGYc",
+      },
+      {
+        image: imgPmsProject,
+        title: "Plantation Management System",
+        subtitle: "Designed for PT. Korintiga Hutani to revolutionize the sustainable management of forests.",
+        route: "https://www.linkedin.com/in/chenlian/overlay/Project/497624669/treasury/?profileId=ACoAADeZHqsBj5nLn1_N3HJpuhaE1MMQaJ0oGYc",
+      },
+      {
+        image: imgMebtoonProject,
+        title: "Mebtoon",
+        subtitle: "Designed for users discover and enjoy over three types of comics, such as manhua, manhwa and mangas.",
+        route: "https://mebtoon.netlify.app",
+      },
     ]
   },
   {
-    heading: "Navigation",
+    heading: "Certifications",
     description: "30+ components that will help go through the pages",
     items: [
       {
-        image: `${imagesPrefix}/navbars.jpg`,
-        title: "Navbars",
-        subtitle: "4 Examples",
-        route: "navigation-navbars",
-        pro: false
+        image: imgLogicalProgrammingWithCpp,
+        title: "Logical Programming with C++",
+        subtitle: "Successfully completed the short course program in C++",
+        route: "https://binuscenter.com/check-certificate/?certificate-id=BC003%2FSHG052-2019%2FX%2F0006",
       },
       {
-        image: `${imagesPrefix}/nav-tabs.jpg`,
-        title: "Nav Tabs",
-        subtitle: "2 Nav Tabs",
-        route: "navigation-navtabs",
-        pro: false
+        image: imgSqlCourse,
+        title: "SQL Course",
+        subtitle: "Successfully completed 4 Studies and 1 Dojo in the SQL Course",
+        route: "https://progate.com/course_certificate/eeab2710qt8rqn",
       },
       {
-        image: imgPagination,
-        title: "Pagination",
-        subtitle: "3 Examples",
-        route: "navigation-pagination",
-        pro: false
-      }
+        image: imgMendixDeveloperCertification,
+        title: "Mendix Rapid Developer",
+        subtitle: "Successfully demonstrating the knowledge, skills and experience required for the Mendix Rapid Developer Certification",
+        route: "https://drive.google.com/file/d/1yYBg24mjEQR4vApNpSHx5hxq68G0KeOE/view",
+      },
+      {
+        image: imgResponsiveWebDesign,
+        title: "Responsive Web Design",
+        subtitle: "Successfully completed the Legacy Responsive Web Design V8 Developer Certification",
+        route: "https://www.freecodecamp.org/certification/randysetiawan/responsive-web-design",
+      },
+      {
+        image: imgHsk1,
+        title: "HSK Level 1",
+        subtitle: "Designed for learners who can understand and use some simple Chinese characters and sentences to communicate",
+        route: "https://www.chinesetest.cn/certificate-result?captchaKey=a68260714c2a4122af0dd2ea8a87d33b&zsCode=HW12311017892&name=Randy%20Setiawan&type=4",
+      },
+      {
+        image: imgCertificateOfInternship,
+        title: "Certificate of Internship - MAD",
+        subtitle: "In recognition of outstanding accomplishment and contributions in our company as a part of IT division",
+        route: "https://drive.google.com/file/d/1M9mQQ7ho1136WQVCjF37ip0MhknOPq7a/view",
+      },
+      {
+        image: imgCertificateOfCompletion,
+        title: "Certificate of Completion - NAR",
+        subtitle: "Succesfully completed NEO e-learning training program",
+        route: "https://drive.google.com/file/d/1RMuTLJWEtLaNSJp4BHSt7vpvL_ScMyJZ/view",  
+      },
+      {
+        image: imgHsk2,
+        title: "HSK Level 2",
+        subtitle: "Designed for learners who can use Chinese in a simple and direct manner, applying it in a basic fashion to their daily lives",
+        route: "https://www.chinesetest.cn/certificate-result?captchaKey=1c37d3e37a4043f59700e66a2b9bed8a&zsCode=H22405021661&name=RANDY%20SETIAWAN&type=4",
+      },
+      {
+        image: imgCertificateOfPresentation,
+        title: "Certificate of Presentation - APSIT 2025",
+        subtitle: "For participating and presenting the paper about users adoption of MLFF system",
+        route: "https://drive.google.com/file/d/1dny7vTJHClr_NxNuJqv8xOdVXB7dqABQ/view",  
+      },
+      {
+        image: imgHsk3AndHskk7,
+        title: "HSK Level 3 & HSKK Level Beginner",
+        subtitle: "Designed for learners who can use Chinese to serve the demands of their personal lives, studies and work",
+        route: "https://www.chinesetest.cn/test-result?captchaKey=82ce18492a4c42f99e16045784a471bb&zsCode=H32508056294&name=RANDY%20SETIAWAN&type=4",
+      },
     ]
   },
   {
-    heading: "Input Areas",
+    heading: "Skills",
     description:
       "50+ elements that you need for text manipulation and insertion",
     items: [
       {
-        image: `${imagesPrefix}/newsletters.jpg`,
-        title: "Newsletters",
-        subtitle: "6 Examples",
-        route: "presentation",
-        pro: true
+        image: imgJakartaEe,
+        title: "JPQL",
+        subtitle: "Designed exclusively for managing audit-related files",
+        route: "https://www.linkedin.com/in/chenlian/details/projects/1737348405778/single-media-viewer/?profileId=ACoAADeZHqsBj5nLn1_N3HJpuhaE1MMQaJ0oGYc",
       },
-      {
-        image: `${imagesPrefix}/contact-sections.jpg`,
-        title: "Contact Sections",
-        subtitle: "8 Examples",
-        route: "presentation",
-        pro: true
-      },
-      {
-        image: `${imagesPrefix}/forms.jpg`,
-        title: "Forms",
-        subtitle: "3 Examples",
-        route: "inputareas-forms",
-        pro: false
-      },
-      {
-        image: `${imagesPrefix}/inputs.jpg`,
-        title: "Inputs",
-        subtitle: "6 Examples",
-        route: "inputareas-inputs",
-        pro: false
-      }
-    ]
-  },
-  {
-    heading: "Attention Catchers",
-    description:
-      "20+ Fully coded components that popup from different places of the screen",
-    items: [
-      {
-        image: imgAlert,
-        title: "Alerts",
-        subtitle: "4 Examples",
-        route: "ac-alerts",
-        pro: false
-      },
-      {
-        image: `${imagesPrefix}/toasts.jpg`,
-        title: "Notifications",
-        subtitle: "3 Examples",
-        route: "presentation",
-        pro: true
-      },
-      {
-        image: imgPopover,
-        title: "Tooltips & Popovers",
-        subtitle: "2 Examples",
-        route: "ac-tooltips-popovers",
-        pro: false
-      },
-      {
-        image: imgModal,
-        title: "Modals",
-        subtitle: "5 Examples",
-        route: "ac-modals",
-        pro: false
-      }
-    ]
-  },
-  {
-    heading: "Elements",
-    description:
-      "80+ carefully crafted small elements that come with multiple colors and shapes",
-    items: [
-      {
-        image: `${imagesPrefix}/buttons.jpg`,
-        title: "Buttons",
-        subtitle: "6 Examples",
-        route: "el-buttons",
-        pro: false
-      },
-      {
-        image: `${imagesPrefix}/avatars.jpg`,
-        title: "Avatars",
-        subtitle: "2 Examples",
-        route: "el-avatars",
-        pro: false
-      },
-      {
-        image: imgDropdowns,
-        title: "Dropdowns",
-        subtitle: "2 Examples",
-        route: "el-dropdowns",
-        pro: false
-      },
-      {
-        image: `${imagesPrefix}/switch.jpg`,
-        title: "Toggles",
-        subtitle: "2 Examples",
-        route: "el-toggles",
-        pro: false
-      },
-      {
-        image: `${imagesPrefix}/social-buttons.jpg`,
-        title: "Social Buttons",
-        subtitle: "2 Examples",
-        route: "presentation",
-        pro: true
-      },
-      {
-        image: `${imagesPrefix}/breadcrumbs.jpg`,
-        title: "Breadcrumbs",
-        subtitle: "1 Example",
-        route: "el-breadcrumbs",
-        pro: false
-      },
-      {
-        image: `${imagesPrefix}/badges.jpg`,
-        title: "Badges",
-        subtitle: "3 Examples",
-        route: "el-badges",
-        pro: false
-      },
-      {
-        image: `${imagesPrefix}/progress.jpg`,
-        title: "Progress Bars",
-        subtitle: "4 Examples",
-        route: "el-progress-bars",
-        pro: false
-      },
-      {
-        image: `${imagesPrefix}/tables.jpg`,
-        title: "Tables",
-        subtitle: "3 Examples",
-        route: "presentation",
-        pro: true
-      },
-      {
-        image: `${imagesPrefix}/typography.jpg`,
-        title: "Typography",
-        subtitle: "2 Examples",
-        route: "el-typography",
-        pro: false
-      }
     ]
   }
 ];

@@ -58,13 +58,13 @@ export default {
             <div class="row">
                 <div class="col-lg-6">
                     <!-- EXPERIENCE SECTION -->
-                    <h2 class="font-weight-bold mb-5">Professional Journey</h2>
+                    <h3 class="font-weight-bold mb-5">Professional Journey</h3>
                     <div class="row justify-content-center">
                         <div class="col-lg-12">
                             <div class="card shadow-sm border-radius-lg mb-4" v-for="job in experience" :key="job.role">
                                 <div class="card-body">
                                     <h5 class="font-weight-bold mb-1">{{ job.role }}</h5>
-                                    <p class="text-primary mb-1">{{ job.company }}</p>
+                                    <p class="text-success font-weight-bold mb-1">{{ job.company }}</p>
                                     <p class="text-muted small">{{ job.period }}</p>
                                     <p class="mb-0">{{ job.desc }}</p>
                                 </div>
@@ -73,15 +73,15 @@ export default {
                     </div>
                 </div>
                 <div class="col-lg-6">
-                    <!-- EXPERIENCE SECTION -->
-                    <h2 class="font-weight-bold mb-5">Academic Background</h2>
+                    <!-- ACADEMIC SECTION -->
+                    <h3 class="font-weight-bold mb-5">Academic Background</h3>
                     <div class="row justify-content-center">
                         <div class="col-lg-12">
                             <div class="card shadow-sm border-radius-lg mb-4" v-for="edu in education"
                                 :key="edu.school">
                                 <div class="card-body">
                                     <h5 class="font-weight-bold mb-1">{{ edu.school }}</h5>
-                                    <p class="text-primary mb-1">{{ edu.degree }}</p>
+                                    <p class="text-success font-weight-bold mb-1">{{ edu.degree }}</p>
                                     <p class="text-muted small">{{ edu.period }}</p>
                                     <p class="mb-0">{{ edu.desc }}</p>
                                 </div>

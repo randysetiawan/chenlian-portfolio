@@ -33,6 +33,21 @@ import imgHsk2 from "@/assets/img/hsk2.jpeg";
 import imgCertificateOfPresentation from "@/assets/img/certificate_of_presentation.png";
 import imgHsk3AndHskk7 from "@/assets/img/hsk3_and_hskk7.jpeg";
 import imgJakartaEe from "@/assets/img/jakarta-ee-logo.svg";
+import imgBootstrap from "@/assets/img/bootstrap.png";
+import imgSpringboot from "@/assets/img/springboot.png";
+import imgReact from "@/assets/img/react.png";
+import imgGit from "@/assets/img/git.png";
+import imgMsOffice from "@/assets/img/msoffice.png";
+import imgCss from "@/assets/img/css.png";
+import imgJavascript from "@/assets/img/javascript.png";
+import imgXml from "@/assets/img/xml.png";
+import imgKotlin from "@/assets/img/kotlin.png";
+import imgCpp from "@/assets/img/cpp.png";
+import imgMendix from "@/assets/img/mendix.webp";
+import imgJava from "@/assets/img/java.png";
+import imgMySql from "@/assets/img/mysql.png";
+import imgHtml from "@/assets/img/html.png";
+import imgUml from "@/assets/img/uml.png";
 
 export default [
   {
@@ -164,14 +179,84 @@ export default [
   },
   {
     heading: "Skills",
+    isSkill: true,
     description:
       "50+ elements that you need for text manipulation and insertion",
     items: [
       {
-        image: imgJakartaEe,
-        title: "JPQL",
-        subtitle: "Designed exclusively for managing audit-related files",
-        route: "https://www.linkedin.com/in/chenlian/details/projects/1737348405778/single-media-viewer/?profileId=ACoAADeZHqsBj5nLn1_N3HJpuhaE1MMQaJ0oGYc",
+        image: imgBootstrap,
+        title: "Bootstrap",
+        route: "https://getbootstrap.com",
+      },
+      {
+        image: imgSpringboot,
+        title: "Spring Boot",
+        route: "https://spring.io/projects/spring-boot",
+      },
+      {
+        image: imgReact,
+        title: "React.js",
+        route: "https://react.dev",
+      },
+      {
+        image: imgGit,
+        title: "Git",
+        route: "https://git-scm.com",
+      },
+      {
+        image: imgMsOffice,
+        title: "Microsoft Office",
+        route: "https://www.office.com",
+      },
+      {
+        image: imgCss,
+        title: "CSS (Cascading Style Sheets)",
+        route: "https://developer.mozilla.org/en-US/docs/Web/CSS",
+      },
+      {
+        image: imgJavascript,
+        title: "Javascript",
+        route: "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+      },
+      {
+        image: imgXml,
+        title: "XML (Extensible Markup Language)",
+        route: "https://developer.mozilla.org/en-US/docs/Web/XML",
+      },
+      {
+        image: imgKotlin,
+        title: "Kotlin",
+        route: "https://kotlinlang.org",
+      },
+      {
+        image: imgCpp,
+        title: "C++",
+        route: "https://isocpp.org",
+      },
+      {
+        image: imgMendix,
+        title: "Mendix",
+        route: "https://www.mendix.com",
+      },
+      {
+        image: imgJava,
+        title: "Java",
+        route: "https://www.java.com",
+      },
+      {
+        image: imgMySql,
+        title: "MySql",
+        route: "https://www.mysql.com",
+      },
+      {
+        image: imgHtml,
+        title: "HTML (HyperText Markup Language)",
+        route: "https://developer.mozilla.org/en-US/docs/Web/HTML",
+      },
+      {
+        image: imgUml,
+        title: "UML (Unified Modelling Language)",
+        route: "https://www.visual-paradigm.com/guide/uml-unified-modeling-language/what-is-uml",
       },
     ]
   }

@@ -32,7 +32,6 @@ import imgCertificateOfCompletion from "@/assets/img/certificate_of_completion.p
 import imgHsk2 from "@/assets/img/hsk2.jpeg";
 import imgCertificateOfPresentation from "@/assets/img/certificate_of_presentation.png";
 import imgHsk3AndHskk7 from "@/assets/img/hsk3_and_hskk7.jpeg";
-import imgJakartaEe from "@/assets/img/jakarta-ee-logo.svg";
 import imgBootstrap from "@/assets/img/bootstrap.png";
 import imgSpringboot from "@/assets/img/springboot.png";
 import imgReact from "@/assets/img/react.png";
@@ -48,6 +47,7 @@ import imgJava from "@/assets/img/java.png";
 import imgMySql from "@/assets/img/mysql.png";
 import imgHtml from "@/assets/img/html.png";
 import imgUml from "@/assets/img/uml.png";
+import imgJakartaee from "@/assets/img/jakartaee.svg";
 
 export default [
   {
@@ -256,6 +256,11 @@ export default [
       {
         image: imgUml,
         title: "UML (Unified Modelling Language)",
+        route: "https://www.visual-paradigm.com/guide/uml-unified-modeling-language/what-is-uml",
+      },
+      {
+        image: imgJakartaee,
+        title: "JPQL (Unified Modelling Language)",
         route: "https://www.visual-paradigm.com/guide/uml-unified-modeling-language/what-is-uml",
       },
     ]

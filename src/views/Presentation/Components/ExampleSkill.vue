@@ -1,6 +1,4 @@
 <script setup>
-import { onMounted } from "vue";
-import setTooltip from "@/assets/js/tooltip"; // same tooltip initializer you use elsewhere
 
 defineProps({
   image: {
@@ -15,11 +13,6 @@ defineProps({
     type: String,
     default: null, // if null → non-clickable skill
   }
-});
-
-// enable bootstrap tooltip
-onMounted(() => {
-  setTooltip();
 });
 </script>
 

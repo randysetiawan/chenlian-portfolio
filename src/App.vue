@@ -1,19 +1,17 @@
 <script setup>
-/*
-=========================================================
-* Vue Material Kit 2 - v2.0.0
-=========================================================
+import { RouterView } from "vue-router"
+import { useI18n } from "vue-i18n"
+import { watch } from "vue"
 
-* Product Page: https://www.creative-tim.com/product/vue-material-kit
-* Copyright 2022 Creative Tim (https://www.creative-tim.com)
+const { locale, t } = useI18n()
 
-Coded by www.creative-tim.com
+// Watch for language changes
+watch(locale, () => {
+  document.title = t("fullName")
+})
 
- =========================================================
-
-* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-*/
-import { RouterView } from "vue-router";
+// Initial set
+document.title = t("fullName")
 </script>
 
 <template>

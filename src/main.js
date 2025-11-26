@@ -16,4 +16,5 @@ app.use(createPinia());
 app.use(router);
 app.use(materialKit);
 app.use(i18n)
+document.title = i18n.global.t('fullName')
 app.mount("#app");

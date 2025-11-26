@@ -47,7 +47,12 @@ import imgJava from "@/assets/img/java.png";
 import imgMySql from "@/assets/img/mysql.png";
 import imgHtml from "@/assets/img/html.png";
 import imgUml from "@/assets/img/uml.png";
-import imgJakartaee from "@/assets/img/jakartaee.svg";
+import imgJakartaEe from "@/assets/img/jakartaee.svg";
+import imgProjectLombok from "@/assets/img/projectlombok.png";
+import imgRest from "@/assets/img/rest.png";
+import imgFigma from "@/assets/img/figma.png";
+import imgHilt from "@/assets/img/hilt.png";
+import imgKoin from "@/assets/img/koin.png";
 
 export default [
   {
@@ -259,9 +264,34 @@ export default [
         route: "https://www.visual-paradigm.com/guide/uml-unified-modeling-language/what-is-uml",
       },
       {
-        image: imgJakartaee,
-        title: "JPQL (Unified Modelling Language)",
+        image: imgJakartaEe,
+        title: "JPQL (Jakarta Persistence Query Language)",
         route: "https://www.visual-paradigm.com/guide/uml-unified-modeling-language/what-is-uml",
+      },
+      {
+        image: imgProjectLombok,
+        title: "Project Lombok",
+        route: "https://projectlombok.org",
+      },
+      {
+        image: imgRest,
+        title: "REST (Representational State Transfer)",
+        route: "https://restfulapi.net",
+      },
+      {
+        image: imgFigma,
+        title: "Figma",
+        route: "https://www.figma.com",
+      },
+      {
+        image: imgHilt,
+        title: "Hilt",
+        route: "https://dagger.dev/hilt",
+      },
+      {
+        image: imgKoin,
+        title: "Koin",
+        route: "https://insert-koin.io",
       },
     ]
   }

@@ -4,6 +4,8 @@ import MaterialBadge from "../../../components/MaterialBadge.vue";
 
 // images
 import imgSigninCover from "@/assets/img/signin-cover.png";
+import imgBinusGraduation from "@/assets/img/binusgraduation.jpg";
+
 </script>
 <template>
   <section class="py-5">
@@ -12,12 +14,12 @@ import imgSigninCover from "@/assets/img/signin-cover.png";
         <div class="row text-center my-sm-5 mt-5">
           <div class="col-lg-6 mx-auto">
             <MaterialBadge color="success" class="mb-3"
-              >Boost creativity</MaterialBadge
+              >Highlights</MaterialBadge
             >
-            <h2 class="">With our coded pages</h2>
+            <h2 class="">Achievements & Accomplishments</h2>
             <p class="lead">
-              The easiest way to get started is to use one of our <br />
-              pre-built example pages.
+              A quick overview of important milestones I've achieved throughout <br />
+              my academic and professional journey.
             </p>
           </div>
         </div>
@@ -29,10 +31,10 @@ import imgSigninCover from "@/assets/img/signin-cover.png";
           <div class="row mt-4">
             <div class="col-md-6 mt-md-0 mt-5">
               <ExampleCard
-                class="shadow-lg"
-                title="About Us Page"
-                image="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/material-design-system/presentation/pages/about-us.jpg"
-                route="about"
+                class="min-height-250 max-height-250 shadow-lg"
+                title="72nd BINUS Graduation 2025"
+                :image=imgBinusGraduation
+                route="https://graduation.apps.binus.ac.id/editions/wisuda-72"
               />
             </div>
             <div class="col-md-6 mt-md-0 mt-5">
@@ -66,11 +68,10 @@ import imgSigninCover from "@/assets/img/signin-cover.png";
         <div class="col-md-3 mx-auto mt-md-0 mt-3">
           <div class="position-sticky" style="top: 100px !important">
             <h3>
-              Presentation Pages for Company, Landing Pages, Blogs and Support
+              Professional Achievements & Educational Accomplishments
             </h3>
             <h6 class="text-secondary font-weight-normal">
-              These is just a small selection of the multiple possibitilies you
-              have. Focus on the business, not on the design.
+              Each tile represents an important milestone that shaped my skills, mindset, and technical foundation.
             </h6>
           </div>
         </div>

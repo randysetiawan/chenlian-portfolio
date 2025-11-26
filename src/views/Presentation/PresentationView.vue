@@ -20,6 +20,7 @@ import PresentationTestimonials from "./Sections/PresentationTestimonials.vue";
 import PresentationInformation from "./Sections/PresentationInformation.vue";
 import PresentationAbout from "./Sections/PresentationAbout.vue";
 import PresentationExperienceEducation from "./Sections/PresentationExperienceEducation.vue";
+import PresentationContactUs from "./Sections/PresentationContactUs.vue";
 
 //images
 import vueMkHeader from "@/assets/img/vue-mk-header.jpg";
@@ -75,9 +76,9 @@ onUnmounted(() => {
         <PresentationExperienceEducation />
         <PresentationExample :data="data" />
         <PresentationPages />
-        <BuiltByDevelopers />
+        <!-- <BuiltByDevelopers /> -->
 
-        <div class="container">
+        <!-- <div class="container">
             <div class="row">
                 <div class="col-lg-4">
                     <FilledInfoCard class="p-4" :color="{ text: 'white', background: 'bg-gradient-success' }"
@@ -108,7 +109,7 @@ onUnmounted(() => {
                 }" />
                 </div>
             </div>
-        </div>
+        </div> -->
         <PresentationTestimonials />
 
         <div class="container-fluid mt-sm-5 border-radius-xl" :style="{
@@ -196,5 +197,6 @@ onUnmounted(() => {
             </div>
         </div>
     </div>
+    <PresentationContactUs/>
     <DefaultFooter />
 </template>

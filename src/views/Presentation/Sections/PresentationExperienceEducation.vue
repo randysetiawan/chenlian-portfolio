@@ -1,7 +1,7 @@
 <script setup>
 import MaterialBadge from "../../../components/MaterialBadge.vue";
 import korindoLogo from "@/assets/img/korindo.png"
-import binusLogo from "@/assets/img/binus.svg"
+import binusLogo from "@/assets/img/binus.png"
 </script>
 <script>
 export default {

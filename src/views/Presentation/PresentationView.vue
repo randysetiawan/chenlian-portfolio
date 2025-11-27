@@ -28,6 +28,7 @@ import wavesWhite from "@/assets/img/waves-white.svg";
 import logoBootstrap from "@/assets/img/logos/bootstrap5.jpg";
 import logoTailwind from "@/assets/img/logos/icon-tailwind.jpg";
 import logoVue from "@/assets/img/logos/vue.jpg";
+import logoPopperJs from "@/assets/img/popperjs.svg";
 import logoAngular from "@/assets/img/logos/angular.jpg";
 import logoReact from "@/assets/img/logos/react.jpg";
 import logoSketch from "@/assets/img/logos/sketch.jpg";
@@ -124,17 +125,15 @@ onUnmounted(() => {
                         <div class="d-flex justify-content-center p-5">
                             <div class="col-lg-8 ms-lg-5 text-center">
                                 <h3 class="text-white">
-                                    Do you love this awesome UI Kit from Vuejs & Bootstrap?
+                                    Ready to take your project to the next level?
                                 </h3>
                                 <p class="text-white text-md">
-                                    Cause if you do, it can be yours for FREE. Hit the button
-                                    below to navigate to Creative Tim where you can <br />
-                                    find the Design System in HTML. Start a new project or give an
-                                    old Bootstrap project a new look!
+                                    If you're looking for someone who can bring ideas to life with clean, reliable, and
+                                    thoughtful development — I'd love to help. Click the button below and let's build
+                                    something great together.
                                 </p>
-
                                 <a href="https://www.creative-tim.com/product/vue-material-kit"
-                                    class="btn btn-sm mb-0 bg-gradient-success px-5 py-3 mt-4">Download Now</a>
+                                    class="btn btn-sm mb-0 bg-gradient-success px-5 py-3 mt-4">Contact Me</a>
                             </div>
                         </div>
                     </div>
@@ -144,35 +143,15 @@ onUnmounted(() => {
 
         <div class="container">
             <div class="row">
-                <div class="d-flex flex-column w-100 text-center p-5 mb-8">
-                    <h3>Available on these technologies</h3>
+                <div class="d-flex flex-column w-100 text-center p-5 mb-3">
+                    <h3>Built using these technologies</h3>
                     <div class="d-flex justify-content-center mt-3 flex-wrap">
-                        <a href="https://www.creative-tim.com/product/material-kit" data-bs-toggle="tooltip"
-                            data-bs-placement="bottom" title="Bootstrap 5 - Most popular front-end component library">
-                            <img :src="logoBootstrap" alt="title" loading="lazy" :style="{ height: '90px' }" />
-                        </a>
-                        <a class="opacity-5 ms-3" href="#" data-bs-toggle="tooltip" data-bs-placement="bottom"
-                            title="Coming Soon">
-                            <img :src="logoTailwind" alt="title" loading="lazy" :style="{ height: '90px' }" />
-                        </a>
-                        <a href="https://www.creative-tim.com/product/vue-material-kit-pro" class="mx-3"
+                        <img :src="logoVue" alt="title" loading="lazy" :style="{ height: '200px' }"
                             data-bs-toggle="tooltip" data-bs-placement="bottom"
-                            title="Vue.js - Is a Progressive JavaScript Framework">
-                            <img :src="logoVue" alt="title" loading="lazy" :style="{ height: '90px' }" />
-                        </a>
-                        <a class="opacity-5" href="#" data-bs-toggle="tooltip" data-bs-placement="bottom"
-                            title="Coming Soon">
-                            <img :src="logoAngular" alt="title" loading="lazy" :style="{ height: '90px' }" />
-                        </a>
-                        <a href="https://www.creative-tim.com/product/material-kit-react-pro" class="mx-3"
+                            title="Vue.js - Is a Progressive JavaScript Framework" />
+                        <img :src="logoBootstrap" alt="title" loading="lazy" :style="{ height: '200px' }"
                             data-bs-toggle="tooltip" data-bs-placement="bottom"
-                            title="React – A JavaScript library for building user interfaces">
-                            <img :src="logoReact" alt="title" loading="lazy" :style="{ height: '90px' }" />
-                        </a>
-                        <a class="opacity-5" href="#" data-bs-toggle="tooltip" data-bs-placement="bottom"
-                            title="Coming Soon">
-                            <img :src="logoSketch" alt="title" loading="lazy" :style="{ height: '90px' }" />
-                        </a>
+                            title="Bootstrap 5 - Most popular front-end component library" />
                     </div>
                 </div>
             </div>
@@ -181,22 +160,19 @@ onUnmounted(() => {
             <div class="container">
                 <div class="row">
                     <div class="col-lg-5 ms-auto">
-                        <h4 class="mb-1">Thank you for your support!</h4>
-                        <p class="lead mb-0">We deliver the best web products</p>
+                        <h4 class="mb-1">Connect With Me</h4>
+                        <p class="lead mb-0">Feel free to reach out or follow me on social media.</p>
                     </div>
                     <div class="col-lg-5 me-lg-auto my-lg-auto text-lg-end mt-5">
-                        <MaterialSocialButton
-                            route="https://twitter.com/intent/tweet?text=Check%20Material%20Design%20System%20made%20by%20%40CreativeTim%20%23webdesign%20%23designsystem%20%23bootstrap5&url=https%3A%2F%2Fwww.creative-tim.com%2Fproduct%2Fmaterial-design-system-pro"
-                            component="twitter" color="twitter" label="Tweet" />
-                        <MaterialSocialButton
-                            route="https://www.facebook.com/sharer/sharer.php?u=https://www.creative-tim.com/product/material-design-system-pro"
-                            component="facebook-square" color="facebook" label="Share" />
-                        <MaterialSocialButton route="" component="pinterest" color="pinterest" label="Pin it" />
+                        <MaterialSocialButton route="https://www.linkedin.com/in/chenlian" component="linkedin"
+                            color="linkedin" label="LinkedIn" />
+                        <MaterialSocialButton route="https://www.instagram.com/chenlian07" component="instagram"
+                            color="instagram" label="Instagram" />
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <PresentationContactUs/>
+    <PresentationContactUs />
     <DefaultFooter />
 </template>

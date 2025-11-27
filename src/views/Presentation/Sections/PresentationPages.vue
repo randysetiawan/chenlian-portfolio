@@ -5,6 +5,9 @@ import MaterialBadge from "../../../components/MaterialBadge.vue";
 // images
 import imgSigninCover from "@/assets/img/signin-cover.png";
 import imgBinusGraduation from "@/assets/img/binusgraduation.jpg";
+import imgApsit2025 from "@/assets/img/apsit2025.png";
+import imgBinusThesisDefense from "@/assets/img/binusthesisdefense.jpeg";
+import imgInternshipCompletion from "@/assets/img/internshipcompletion.jpeg";
 
 </script>
 <template>
@@ -32,35 +35,35 @@ import imgBinusGraduation from "@/assets/img/binusgraduation.jpg";
             <div class="col-md-6 mt-md-0 mt-5">
               <ExampleCard
                 class="min-height-250 max-height-250 shadow-lg"
-                title="72nd BINUS Graduation 2025"
+                title="72nd Bina Nusantara Graduation 2025"
                 :image=imgBinusGraduation
                 route="https://graduation.apps.binus.ac.id/editions/wisuda-72"
               />
             </div>
             <div class="col-md-6 mt-md-0 mt-5">
               <ExampleCard
-                class="shadow-lg"
-                title="Contact Us Page"
-                image="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/material-design-system/presentation/pages/contact.jpg"
-                route="contactus"
+                class="min-height-250 max-height-250 shadow-lg"
+                title="3rd International Conference in Advances in Power, Signal, and Information Technology 2025"
+                :image=imgApsit2025
+                route="https://apsit.co.in"
               />
             </div>
           </div>
           <div class="row mt-4">
             <div class="col-md-6 mt-md-0 mt-5">
               <ExampleCard
-                classes="mt-5"
-                title="Sign In Page"
-                :image="imgSigninCover"
-                route="signin-basic"
+                class="min-height-250 max-height-250 shadow-lg"
+                title="Bina Nusantara Research Paper Expo 2025"
+                :image="imgBinusThesisDefense"
+                route="https://sis.binus.ac.id/2025/02/11/expo-artikel-ilmiah-2025-semester-ganjil-school-of-information-systems"
               />
             </div>
             <div class="col-md-6 mt-md-0 mt-5">
               <ExampleCard
-                classes="shadow-lg"
-                title="Author Page"
-                image="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/material-design-system/presentation/pages/author.jpg"
-                route="author"
+                class="min-height-250 max-height-250 shadow-lg"
+                title="Bina Nusantara Enrichment Program - Internship 2023 - 2024"
+                :image="imgInternshipCompletion"
+                route="https://binus.ac.id/binusian-journey/track-certified-internship"
               />
             </div>
           </div>

@@ -48,7 +48,7 @@ onMounted(() => {
                         <i class="fas fa-phone text-sm"></i>
                       </div>
                       <div class="ps-3">
-                        <span class="text-sm opacity-8">(+40) 772 100 200</span>
+                        <span class="text-sm opacity-8">(+62) *** **** **65</span>
                       </div>
                     </div>
                     <div class="d-flex p-2 text-white">
@@ -57,7 +57,7 @@ onMounted(() => {
                       </div>
                       <div class="ps-3">
                         <span class="text-sm opacity-8"
-                          >hello@creative-tim.com</span
+                          >chenlian1207@gmail.com</span
                         >
                       </div>
                     </div>
@@ -67,7 +67,7 @@ onMounted(() => {
                       </div>
                       <div class="ps-3">
                         <span class="text-sm opacity-8"
-                          >North Kembangan, West Jakarta 11610</span
+                          >North Kembangan, West Jakarta</span
                         >
                       </div>
                     </div>
@@ -127,7 +127,7 @@ onMounted(() => {
                       <div class="col-md-12 pe-2 mb-3">
                         <MaterialInput
                           class="input-group-static mb-4"
-                          label="My name is"
+                          label="Full Name"
                           type="text"
                           placeholder="Full Name"
                         />
@@ -135,17 +135,17 @@ onMounted(() => {
                       <div class="col-md-12 pe-2 mb-3">
                         <MaterialInput
                           class="input-group-static mb-4"
-                          label="I'm looking for"
-                          type="text"
-                          placeholder="What you love"
+                          label="Email"
+                          type="email"
+                          placeholder="example@email.com"
                         />
                       </div>
                       <div class="col-md-12 pe-2 mb-3">
                         <MaterialTextArea
                           class="input-group-static mb-4"
-                          placeholder="I want to say that..."
+                          placeholder="Describe your problem here"
                           :rows="6"
-                          >Your message</MaterialTextArea
+                          >How can i help you?</MaterialTextArea
                         >
                       </div>
                     </div>

@@ -46,7 +46,7 @@ export default {
         <DefaultReviewCard v-for="testimonial in testimonials" :key="testimonial.name" :class="testimonial.class || ''" :color="testimonial.color || null" :name="testimonial.name"
           :desc="testimonial.desc" :review="testimonial.review" />
       </div>
-      <hr class="horizontal dark my-5" />
+      <!-- <hr class="horizontal dark my-5" />
       <div class="row">
         <div class="col-lg-2 col-md-4 col-6 ms-auto">
           <img class="w-100 opacity-6" src="@/assets/img/logos/gray-logos/logo-apple.svg" alt="Logo" />
@@ -63,7 +63,7 @@ export default {
         <div class="col-lg-2 col-md-4 col-6 me-md-auto mx-md-0 mx-auto">
           <img class="w-100 opacity-6" src="@/assets/img/logos/gray-logos/logo-digitalocean.svg" alt="Logo" />
         </div>
-      </div>
+      </div> -->
     </div>
   </section>
 </template>

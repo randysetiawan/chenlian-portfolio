@@ -13,7 +13,7 @@
           </div>
           <div class="col-lg-4 text-center mb-4">
             <img
-              src="https://scontent.cdninstagram.com/v/t51.82787-15/529472774_18516215974062449_1591955004137897141_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=101&ig_cache_key=MzY5NjUyMjcxODY1ODIyOTUwOQ%3D%3D.3-ccb1-7&ccb=1-7&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6InhwaWRzLjg1M3gxMTM4LnNkci5DMyJ9&_nc_ohc=eKymROcFvcIQ7kNvwFpCm68&_nc_oc=Adnm2bucx39uHjrrLBzRj2Uy5An2ki0FaSISlzH_ZnSBFC_6BwnV0flrmfr-tR1xdpg&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&se=8&_nc_ht=scontent.cdninstagram.com&_nc_gid=soglE6liri-G4-YBXeKtKg&oh=00_Afh8f67byPKLgZO9cknmXfFBdnW3Mor919xYqZBh_5c59Q&oe=6921B0D5"
+              src="https://c4.wallpaperflare.com/wallpaper/108/140/869/digital-digital-art-artwork-fantasy-art-drawing-hd-wallpaper-thumb.jpg"
               class="w-100 shadow-lg rounded"
               alt="Profile"
             />

@@ -53,6 +53,7 @@ import imgRest from "@/assets/img/rest.png";
 import imgFigma from "@/assets/img/figma.png";
 import imgHilt from "@/assets/img/hilt.png";
 import imgKoin from "@/assets/img/koin.png";
+import imgMsSqlServer from "@/assets/img/mssqlserver.png";
 
 export default [
   {
@@ -292,6 +293,11 @@ export default [
         image: imgKoin,
         title: "Koin",
         route: "https://insert-koin.io",
+      },
+      {
+        image: imgMsSqlServer,
+        title: "Microsoft SQL Server",
+        route: "https://learn.microsoft.com/en-us/sql/sql-server/what-is-sql-server",
       },
     ]
   }

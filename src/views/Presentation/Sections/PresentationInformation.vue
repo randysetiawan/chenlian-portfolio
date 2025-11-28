@@ -13,18 +13,18 @@ import DefaultInfoCard from "../../../examples/cards/infoCards/DefaultInfoCard.v
             <RotatingCardFront
               image="https://images.unsplash.com/photo-1569683795645-b62e50fbf103?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=987&q=80"
               icon="touch_app"
-              title="Crafting Intelligent <br /> Digital Experiences"
-              description="I build scalable software systems with a strong balance of engineering, analysis, and human-centered design. I bring ideas into polished, functional, and user-friendly products."
+              :title="`${$t('services.title1front')}<br/>${$t('services.title2front')}`"
+              :description="$t('services.descFront')"
             />
 
             <RotatingCardBack
               image="https://images.unsplash.com/photo-1498889444388-e67ea62c464b?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1365&q=80"
-              title="Let's Connect"
-              description="If you're looking for a reliable developer who can transform ideas into well-engineered, user-focused solutions — I'd be happy to connect."
+              :title="$t('services.titleBack')"
+              :description="$t('services.descBack')"
               :action="[
                 {
                   route: './/sections/page-sections/hero-sections.html',
-                  label: 'Contact me',
+                  label: $t('contactMe'),
                 },
               ]"
             />
@@ -33,28 +33,28 @@ import DefaultInfoCard from "../../../examples/cards/infoCards/DefaultInfoCard.v
         <div class="col-lg-6 ms-auto">
           <div class="row justify-content-start">
             <DefaultInfoCard
-              icon="content_copy"
-              title="Full-Cycle Engineering"
-              description="From wireframes to deployment, I develop complete digital experiences with clean architecture and maintainable code."
+              icon="code"
+              :title="$t('services.card1title')"
+              :description="$t('services.card1desc')"
             />
             <DefaultInfoCard
-              icon="flip_to_front"
-              title="Insight-Driven System Analysis"
-              description="I translate business needs into technical solutions, ensuring systems are scalable, efficient, and easy to maintain."
+              icon="account_tree"
+              :title="$t('services.card2title')"
+              :description="$t('services.card2desc')"
             />
           </div>
           <div class="row justify-content-start mt-5">
             <DefaultInfoCard
               class="mt-3"
-              icon="price_change"
-              title="Reliable Data Foundations"
-              description="I design performant, secure, and well-structured databases that keep applications fast and trustworthy."
+              icon="storage"
+              :title="$t('services.card3title')"
+              :description="$t('services.card3desc')"
             />
             <DefaultInfoCard
               class="mt-3"
               icon="devices"
-              title="Intuitive UI & Meaningful UX"
-              description="I blend design and psychology to craft interfaces people enjoy — visually appealing, consistent, and purpose-driven."
+              :title="$t('services.card4title')"
+              :description="$t('services.card4desc')"
             />
           </div>
         </div>

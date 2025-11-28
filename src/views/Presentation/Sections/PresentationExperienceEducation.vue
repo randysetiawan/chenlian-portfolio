@@ -45,7 +45,7 @@ export default {
 };
 </script>
 <template>
-    <section class="my-5 py-5">
+    <section id="experience" class="my-5 py-5">
         <div class="container">
             <div class="row">
                 <div class="row justify-content-center text-center my-sm-5">

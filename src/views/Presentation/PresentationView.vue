@@ -166,6 +166,8 @@ onUnmounted(() => {
                     <div class="col-lg-5 me-lg-auto my-lg-auto text-lg-end mt-5">
                         <MaterialSocialButton route="https://www.linkedin.com/in/chenlian" component="linkedin"
                             color="linkedin" label="LinkedIn" />
+                            <MaterialSocialButton route="https://github.com/randysetiawan" component="github"
+                            color="github" label="GitHub" />
                         <MaterialSocialButton route="https://www.instagram.com/chenlian07" component="instagram"
                             color="instagram" label="Instagram" />
                     </div>

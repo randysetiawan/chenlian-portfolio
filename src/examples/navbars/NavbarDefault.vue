@@ -119,7 +119,7 @@ watch(
         {{ $t('fullName') }}
       </RouterLink>
       <a href="https://www.creative-tim.com/product/vue-material-kit-pro"
-        class="btn btn-sm bg-gradient-success mb-0 ms-auto d-lg-none d-block">Buy Now</a>
+        class="btn btn-sm bg-gradient-success mb-0 ms-auto d-lg-none d-block">{{ $t('navbar.contactMe') }}</a>
       <button class="navbar-toggler shadow-none ms-2" type="button" data-bs-toggle="collapse"
         data-bs-target="#navigation" aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon mt-2">
@@ -131,6 +131,36 @@ watch(
       <div class="collapse navbar-collapse w-100 pt-3 pb-2 py-lg-0" id="navigation">
         <ul class="navbar-nav navbar-nav-hover ms-auto">
           <li class="nav-item dropdown dropdown-hover mx-2">
+            <a href="#"
+              class="nav-link d-flex cursor-pointer align-items-center">
+              <i class="material-icons opacity-6 me-2 text-md" :class="getTextColor()">home</i>
+              {{ $t('navbar.home') }}
+            </a>
+          </li>
+          <li class="nav-item dropdown dropdown-hover mx-2">
+            <a href="#experience"
+              class="nav-link d-flex cursor-pointer align-items-center">
+              <i class="material-icons opacity-6 me-2 text-md" :class="getTextColor()">work</i>
+              {{ $t('navbar.experience') }}
+            </a>
+          </li>
+          <li class="nav-item dropdown dropdown-hover mx-2">
+            <a href="#collections"
+              class="nav-link d-flex cursor-pointer align-items-center">
+              <i class="material-icons opacity-6 me-2 text-md" :class="getTextColor()">collections_bookmark</i>
+              {{ $t('navbar.collections') }}
+            </a>
+          </li>
+          <li class="nav-item dropdown dropdown-hover mx-2">
+            <a href="#highlights"
+              class="nav-link d-flex cursor-pointer align-items-center">
+              <i class="material-icons opacity-6 me-2 text-md" :class="getTextColor()">star</i>
+              {{ $t('navbar.highlights') }}
+            </a>
+          </li>
+
+
+          <!-- <li class="nav-item dropdown dropdown-hover mx-2">
             <a role="button" class="nav-link ps-2 d-flex cursor-pointer align-items-center" :class="getTextColor()"
               id="dropdownMenuPages" data-bs-toggle="dropdown" aria-expanded="false">
               <i class="material-icons opacity-6 me-2 text-md" :class="getTextColor()">dashboard</i>
@@ -566,12 +596,14 @@ watch(
               </svg>
               GitHub
             </a>
-          </li>
+          </li> -->
 
         </ul>
+
+
         <ul class="navbar-nav d-lg-block d-none">
           <li class="nav-item">
-            <a :href="action.route" class="btn btn-sm mb-0" :class="action.color"
+            <a href="#contact-me" class="btn btn-sm mb-0" :class="action.color"
               onclick="smoothToPricing('pricing-soft-ui')">{{ $t('navbar.contactMe') }}</a>
           </li>
         </ul>

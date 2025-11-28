@@ -20,8 +20,8 @@ onMounted(() => {
 });
 </script>
 <template>
-  <section class="py-lg-5">
-    <div class="container">
+  <section id="contact-me" class="py-lg-5">
+    <div class="container mt-6">
       <div class="row">
         <div class="col">
           <div class="card box-shadow-xl overflow-hidden mb-5">

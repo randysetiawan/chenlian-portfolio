@@ -11,7 +11,7 @@ import imgInternshipCompletion from "@/assets/img/internshipcompletion.jpeg";
 
 </script>
 <template>
-  <section class="py-5">
+  <section id="highlights" class="py-5">
     <div class="container">
       <div class="row">
         <div class="row text-center my-sm-5 mt-5">

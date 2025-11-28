@@ -39,6 +39,34 @@ const en = {
         card3desc: "I design performant, secure, and well-structured databases that keep applications fast and trustworthy.",
         card4title: "Intuitive UI & Meaningful UX",
         card4desc: "I blend design and psychology to craft user interface people enjoy — visually appealing, consistent, and purpose-driven.",
+    },
+    experience: {
+        badge: "Experience",
+        title: "A timeline of work and studies",
+        subtitle: "Roles, studies, and milestones that shaped who I am as a developer.",
+        titleLeft: "Professional Journey",
+        titleRight: "Academic Background",
+        fullstackWebDeveloper: "Full-stack Web Developer",
+        korindoGroup: "KORINDO Group",
+        mobileApplicationDeveloper: "Mobile Application Developer",
+        binusUniversity: "BINUS University",
+        informationSystemsBoS: "Information Systems, Bachelor of Science",
+        notreDame: "Notre Dame Senior High School",
+        socialScienceHSDiploma: "Social Sciences, High School Diploma"
+    },
+    months: {
+        january: "January",
+        february: "February",
+        march: "March",
+        april: "April",
+        may: "May",
+        june: "June",
+        july: "July",
+        august: "August",
+        september: "September",
+        october: "October",
+        november: "November",
+        december: "December"
     }
 }
 

@@ -39,6 +39,34 @@ const zn = {
         card3desc: "我设计高性能，安全和结构良好数据库，为了保持应用快速和可靠。",
         card4title: "直观用户界面与有意义用户体验",
         card4desc: "我把设计和心理学混合来做人们可以享受，视觉吸引力，持续还有目标驱动的用户界面。",
+    },
+    experience: {
+        badge: "经验",
+        title: "工作与读书时间线",
+        subtitle: "塑造我当一名开发员的角色，读书和里程碑。",
+        titleLeft: "职业生涯",
+        titleRight: "学历背景",
+        fullstackWebDeveloper: "全栈网站开发员",
+        korindoGroup: "KORINDO集团",
+        mobileApplicationDeveloper: "移动应用开发员",
+        binusUniversity: "建国大学",
+        informationSystemsBoS: "信息系统，理学学士",
+        notreDame: "巴黎圣母高中",
+        socialScienceHSDiploma: "社会科学，高中文凭"
+    },
+    months: {
+        january: "1月",
+        february: "2月",
+        march: "3月",
+        april: "4月",
+        may: "5月",
+        june: "6月",
+        july: "7月",
+        august: "8月",
+        september: "9月",
+        october: "10月",
+        november: "11月",
+        december: "12月"
     }
 }
 

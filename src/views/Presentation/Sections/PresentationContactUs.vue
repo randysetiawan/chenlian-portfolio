@@ -38,16 +38,15 @@ onMounted(() => {
                   <div
                     class="p-5 ps-sm-8 position-relative text-start my-auto z-index-2"
                   >
-                    <h3 class="text-white">Contact Information</h3>
+                    <h3 class="text-white">{{ $t('contact.subtitle') }}</h3>
                     <p class="text-white opacity-8 mb-4">
-                      Fill up the form and I will try to get back to you within
-                      24 hours.
+                      {{ $t('contact.subDesc') }}
                     </p>
                     <div class="d-flex p-2 text-white">
                       <div>
                         <i class="fas fa-phone text-sm"></i>
                       </div>
-                      <div class="ps-3">
+                      <div>
                         <span class="text-sm opacity-8">(+62) *** **** **65</span>
                       </div>
                     </div>
@@ -55,7 +54,7 @@ onMounted(() => {
                       <div>
                         <i class="fas fa-envelope text-sm"></i>
                       </div>
-                      <div class="ps-3">
+                      <div>
                         <span class="text-sm opacity-8"
                           >chenlian1207@gmail.com</span
                         >
@@ -65,53 +64,11 @@ onMounted(() => {
                       <div>
                         <i class="fas fa-map-marker-alt text-sm"></i>
                       </div>
-                      <div class="ps-3">
+                      <div>
                         <span class="text-sm opacity-8"
-                          >North Kembangan, West Jakarta</span
+                          >{{ $t('contact.address') }}</span
                         >
                       </div>
-                    </div>
-                    <div class="mt-4">
-                      <MaterialButton
-                        color="none"
-                        size="lg"
-                        class="btn-icon-only btn-link text-white mb-0"
-                        data-toggle="tooltip"
-                        data-placement="bottom"
-                        data-original-title="Log in with Facebook"
-                      >
-                        <i class="fab fa-facebook"></i>
-                      </MaterialButton>
-                      <MaterialButton
-                        color="none"
-                        size="lg"
-                        class="btn-icon-only btn-link text-white mb-0"
-                        data-toggle="tooltip"
-                        data-placement="bottom"
-                        data-original-title="Log in with Twitter"
-                      >
-                        <i class="fab fa-twitter"></i>
-                      </MaterialButton>
-                      <MaterialButton
-                        color="none"
-                        size="lg"
-                        class="btn-icon-only btn-link text-white mb-0"
-                        data-toggle="tooltip"
-                        data-placement="bottom"
-                        data-original-title="Log in with Dribbble"
-                      >
-                        <i class="fab fa-dribbble"></i>
-                      </MaterialButton>
-                      <MaterialButton
-                        color="none"
-                        size="lg"
-                        class="btn-icon-only btn-link text-white mb-0"
-                        data-toggle="tooltip"
-                        data-placement="bottom"
-                        data-original-title="Log in with Instagram"
-                      >
-                        <i class="fab fa-instagram"></i>
-                      </MaterialButton>
                     </div>
                   </div>
                 </div>
@@ -119,23 +76,23 @@ onMounted(() => {
               <div class="col-lg-7">
                 <form class="p-3" id="contact-form" method="post">
                   <div class="card-header px-4 py-sm-5 py-3">
-                    <h2>Contact me</h2>
-                    <p class="lead">For further questions, including partnership opportunities, please email chenlian1207@gmail.com or contact using my contact form.</p>
+                    <h2>{{ $t('contact.title') }}</h2>
+                    <p class="lead">{{ $t('contact.desc') }}</p>
                   </div>
                   <div class="card-body pt-1">
                     <div class="row">
                       <div class="col-md-12 pe-2 mb-3">
                         <MaterialInput
                           class="input-group-static mb-4"
-                          label="Full Name"
+                          :label="$t('contact.fullName')"
                           type="text"
-                          placeholder="Full Name"
+                          :placeholder="$t('contact.fullName')"
                         />
                       </div>
                       <div class="col-md-12 pe-2 mb-3">
                         <MaterialInput
                           class="input-group-static mb-4"
-                          label="Email"
+                          :label="$t('contact.email')"
                           type="email"
                           placeholder="example@email.com"
                         />
@@ -143,9 +100,9 @@ onMounted(() => {
                       <div class="col-md-12 pe-2 mb-3">
                         <MaterialTextArea
                           class="input-group-static mb-4"
-                          placeholder="Describe your problem here"
+                          :placeholder="$t('contact.problemPlaceholder')"
                           :rows="6"
-                          >How can i help you?</MaterialTextArea
+                          >{{ $t('contact.problem') }}</MaterialTextArea
                         >
                       </div>
                     </div>
@@ -156,7 +113,7 @@ onMounted(() => {
                           color="success"
                           type="submit"
                           class="mb-0"
-                          >Send Message</MaterialButton
+                          >{{ $t('contact.sendBtn') }}</MaterialButton
                         >
                       </div>
                     </div>

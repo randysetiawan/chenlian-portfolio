@@ -67,6 +67,28 @@ const en = {
         october: "October",
         november: "November",
         december: "December"
+    },
+    collections: {
+        badge: "Collections",
+        title: "Huge collection of sections",
+        subtitle: "Explore my key projects, earned certifications, and techincal skills that define my work."
+    },
+    contact: {
+        title: "Contact me",
+        subtitle: "Contact information",
+        desc: "For further questions, including partnership opportunities, please email chenlian1207@gmail.com or contact using my contact form.",
+        subDesc: "Fill up the form and I will try to get back to you within 24 hours.",
+        address: "North Kembangan, West Jakarta",
+        fullName: "Full Name",
+        email: "Email",
+        problem: "How can i help you?",
+        problemPlaceholder: "Describe your problem here",
+        sendBtn: "Send Message"
+    },
+    footer: {
+        copyright1: "Copyright ©",
+        copyright2: "Portfolio Website by Randy Setiawan.",
+        quote: "Building software is easy. Building software people love is the real challenge."
     }
 }
 

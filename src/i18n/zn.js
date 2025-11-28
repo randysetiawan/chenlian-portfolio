@@ -46,7 +46,7 @@ const zn = {
         subtitle: "塑造我当一名开发员的角色，读书和里程碑。",
         titleLeft: "职业生涯",
         titleRight: "学历背景",
-        fullstackWebDeveloper: "全栈网站开发员",
+        fullstackWebDeveloper: "全端网站开发员",
         korindoGroup: "KORINDO集团",
         mobileApplicationDeveloper: "移动应用开发员",
         binusUniversity: "建国大学",
@@ -67,6 +67,28 @@ const zn = {
         october: "10月",
         november: "11月",
         december: "12月"
+    },
+    collections: {
+        badge: "收藏",
+        title: "大量部分收藏",
+        subtitle: "了解我关键项目，获得的认证，还有定义我工作的技术技能。"
+    },
+    contact: {
+        title: "联系我",
+        subtitle: "联系信息",
+        desc: "如果有问题的话，包括合作机会，请发送电子邮件至chenlian1207@gmail.com或者用我的联系表格联系。",
+        subDesc: "请填表，将24个小时内尽快回复。",
+        address: "西雅加达, 北景万岸",
+        fullName: "姓名",
+        email: "电邮",
+        problem: "有什么可以帮助呢？",
+        problemPlaceholder: "这里描述问题",
+        sendBtn: "发消息"
+    },
+    footer: {
+        copyright1: "版权所有 ©",
+        copyright2: "陈利安基于作品集网站。",
+        quote: "开发软件很容易，开发用户喜爱的软件才是真正的挑战。"
     }
 }
 

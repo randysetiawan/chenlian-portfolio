@@ -21,6 +21,7 @@ import PresentationInformation from "./Sections/PresentationInformation.vue";
 import PresentationAbout from "./Sections/PresentationAbout.vue";
 import PresentationExperienceEducation from "./Sections/PresentationExperienceEducation.vue";
 import PresentationContactUs from "./Sections/PresentationContactUs.vue";
+import PresentationFooter from "./Sections/PresentationFooter.vue";
 
 //images
 import vueMkHeader from "@/assets/img/vue-mk-header.jpg";
@@ -176,5 +177,6 @@ onUnmounted(() => {
         </div>
     </div>
     <PresentationContactUs />
-    <DefaultFooter />
+    <!-- <DefaultFooter /> -->
+     <PresentationFooter/>
 </template>

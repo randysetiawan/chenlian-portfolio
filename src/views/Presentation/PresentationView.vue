@@ -145,7 +145,7 @@ onUnmounted(() => {
         <div class="container">
             <div class="row">
                 <div class="d-flex flex-column w-100 text-center p-5 mb-3">
-                    <h3>Built using these technologies</h3>
+                    <h3>{{ $t('buildTech') }}</h3>
                     <div class="d-flex justify-content-center mt-3 flex-wrap">
                         <img :src="logoVue" alt="title" loading="lazy" :style="{ height: '200px' }"
                             data-bs-toggle="tooltip" data-bs-placement="bottom"
@@ -161,8 +161,8 @@ onUnmounted(() => {
             <div class="container">
                 <div class="row">
                     <div class="col-lg-5 ms-auto">
-                        <h4 class="mb-1">Connect With Me</h4>
-                        <p class="lead mb-0">Feel free to reach out or follow me on social media.</p>
+                        <h4 class="mb-1">{{ $t('connect.title') }}</h4>
+                        <p class="lead mb-0">{{ $t('connect.subtitle') }}</p>
                     </div>
                     <div class="col-lg-5 me-lg-auto my-lg-auto text-lg-end mt-5">
                         <MaterialSocialButton route="https://www.linkedin.com/in/chenlian" component="linkedin"

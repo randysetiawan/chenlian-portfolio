@@ -54,7 +54,7 @@ const en = {
         notreDame: "Notre Dame Senior High School",
         socialScienceHSDiploma: "Social Sciences, High School Diploma",
         fullStackKorindoDesc: "Develop and maintain web applications using ReactJS and backend systems using Java Spring Boot to support plantation and palm oil operations.",
-        mobileAppKorindoDesc: "Develop and maintain Android mobile applications using KOIN and Hilt to support plantation and palm oil operations.",
+        mobileAppKorindoDesc: "Develop and maintain Android mobile applications using Koin and Hilt to support plantation and palm oil operations.",
         binusDesc: "Identify and formulate the root cause of information system performance through data and information analysis on business process. Graduated with GPA of 3.71.",
         ndDesc: "Read and analyzed primary and secondary sources, such as historical documents, geographic, and sociology studies. Graduated with GPA of 82.10."
     },
@@ -88,6 +88,11 @@ const en = {
         problem: "How can i help you?",
         problemPlaceholder: "Describe your problem here",
         sendBtn: "Send Message"
+    },
+    buildTech: "Built using these technologies",
+    connect: {
+        title: "Connect With Me",
+        subtitle: "Feel free to reach out or follow me on social media."
     },
     footer: {
         copyright1: "Copyright ©",

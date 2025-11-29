@@ -24,7 +24,7 @@ onMounted(() => {
     <div class="container mt-6">
       <div class="row">
         <div class="col">
-          <div class="card box-shadow-xl overflow-hidden mb-5">
+          <div class="card box-shadow-xl overflow-hidden">
             <div class="row">
               <div
                 class="col-lg-5 position-relative bg-cover px-0"

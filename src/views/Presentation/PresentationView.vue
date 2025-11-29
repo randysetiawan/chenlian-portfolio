@@ -175,8 +175,8 @@ onUnmounted(() => {
                 </div>
             </div>
         </div>
+        <PresentationContactUs />
     </div>
-    <PresentationContactUs />
     <!-- <DefaultFooter /> -->
      <PresentationFooter/>
 </template>

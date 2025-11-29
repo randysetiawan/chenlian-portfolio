@@ -52,7 +52,11 @@ const en = {
         binusUniversity: "BINUS University",
         informationSystemsBoS: "Information Systems, Bachelor of Science",
         notreDame: "Notre Dame Senior High School",
-        socialScienceHSDiploma: "Social Sciences, High School Diploma"
+        socialScienceHSDiploma: "Social Sciences, High School Diploma",
+        fullStackKorindoDesc: "Develop and maintain web applications using ReactJS and backend systems using Java Spring Boot to support plantation and palm oil operations.",
+        mobileAppKorindoDesc: "Develop and maintain Android mobile applications using KOIN and Hilt to support plantation and palm oil operations.",
+        binusDesc: "Identify and formulate the root cause of information system performance through data and information analysis on business process. Graduated with GPA of 3.71.",
+        ndDesc: "Read and analyzed primary and secondary sources, such as historical documents, geographic, and sociology studies. Graduated with GPA of 82.10."
     },
     months: {
         january: "January",

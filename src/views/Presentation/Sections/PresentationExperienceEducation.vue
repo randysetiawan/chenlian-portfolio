@@ -2,6 +2,7 @@
 import MaterialBadge from "../../../components/MaterialBadge.vue";
 import korindoLogo from "@/assets/img/korindo.png"
 import binusLogo from "@/assets/img/binus.png"
+import notreDameLogo from "@/assets/img/notredame.png"
 </script>
 <script>
 export default {
@@ -16,7 +17,7 @@ export default {
                     endMonth: 'months.march',
                     startYear: "2024",
                     endYear: "2025",
-                    desc: "Describe your responsibilities here. Pull from your LinkedIn experience section.",
+                    desc: "experience.fullStackKorindoDesc",
                     logo: korindoLogo
                 },
                 {
@@ -26,7 +27,7 @@ export default {
                     endMonth: 'months.february',
                     startYear: "2023",
                     endYear: "2024",
-                    desc: "What did you build? What tools did you use?",
+                    desc: "experience.mobileAppKorindoDesc",
                     logo: korindoLogo
                 }
             ],
@@ -38,7 +39,7 @@ export default {
                     endMonth: 'months.april',
                     startYear: "2020",
                     endYear: "2025",
-                    desc: "Optional: awards, GPA, notable courses.",
+                    desc: "experience.binusDesc",
                     logo: binusLogo
                 },
                 {
@@ -48,7 +49,8 @@ export default {
                     endMonth: 'months.may',
                     startYear: "2017",
                     endYear: "2020",
-                    desc: "Optional: awards, GPA, notable courses."
+                    desc: "experience.ndDesc",
+                    logo: notreDameLogo
                 }
             ],
         }
@@ -92,7 +94,7 @@ export default {
                                             ${job.endYear}年${$t(job.endMonth).replace('月', '')}月`
                                             }}
                                         </p>
-                                        <p class="mb-0">{{ job.desc }}</p>
+                                        <p class="mb-0">{{ $t(job.desc) }}</p>
                                     </div>
                                     <!-- RIGHT SIDE: COMPANY LOGO -->
                                     <img v-if="job.logo" :src="job.logo" alt="Company Logo" class="ms-3"
@@ -123,7 +125,7 @@ export default {
                                             ${edu.endYear}年${$t(edu.endMonth).replace('月', '')}月`
                                             }}
                                         </p>
-                                        <p class="mb-0">{{ edu.desc }}</p>
+                                        <p class="mb-0">{{ $t(edu.desc) }}</p>
                                     </div>
                                     <!-- RIGHT SIDE: SCHOOL LOGO -->
                                     <img v-if="edu.logo" :src="edu.logo" alt="School Logo" class="ms-3"

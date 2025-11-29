@@ -52,7 +52,11 @@ const zn = {
         binusUniversity: "建国大学",
         informationSystemsBoS: "信息系统，理学学士",
         notreDame: "巴黎圣母高中",
-        socialScienceHSDiploma: "社会科学，高中文凭"
+        socialScienceHSDiploma: "社会科学，高中文凭",
+        fullStackKorindoDesc: "使用React.js和Java Spring Boot开发和维护网站应用和后端系统为了支持种植园和棕榈油的运营。",
+        mobileAppKorindoDesc: "使用KOIN和Hilt开发和维护安卓移动应用为了支持种植园和棕榈油的运营。",
+        binusDesc: "通过流程的数据和信息分析找出信息系统性能问题的根本原因。毕业平均绩点：3.71。",
+        ndDesc: "读和分析一手和二手资料，例如：历史文件，地理和社会学研究。毕业平均绩点：82.10。"
     },
     months: {
         january: "1月",

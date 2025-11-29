@@ -149,10 +149,10 @@ onUnmounted(() => {
                     <div class="d-flex justify-content-center mt-3 flex-wrap">
                         <img :src="logoVue" alt="title" loading="lazy" :style="{ height: '200px' }"
                             data-bs-toggle="tooltip" data-bs-placement="bottom"
-                            title="Vue.js - Is a Progressive JavaScript Framework" />
+                            :title="$t('vueJs')" />
                         <img :src="logoBootstrap" alt="title" loading="lazy" :style="{ height: '200px' }"
                             data-bs-toggle="tooltip" data-bs-placement="bottom"
-                            title="Bootstrap 5 - Most popular front-end component library" />
+                            :title="$t('bootstrap')" />
                     </div>
                 </div>
             </div>

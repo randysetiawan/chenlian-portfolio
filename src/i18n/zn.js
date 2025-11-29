@@ -79,7 +79,7 @@ const zn = {
     },
     contact: {
         title: "联系我",
-        subtitle: "联系信息",
+        subtitle: "联系方式",
         desc: "如果有问题的话，包括合作机会，请发送电子邮件至chenlian1207@gmail.com或者用我的联系表格联系。",
         subDesc: "请填表，将24个小时内尽快回复。",
         address: "西雅加达, 北景万岸",
@@ -90,6 +90,8 @@ const zn = {
         sendBtn: "发消息"
     },
     buildTech: "使用这些技术被构建",
+    vueJs: "Vue.js - 渐进式 JavaScript 框架",
+    bootstrap: "Bootstrap 5 - 最流行的前端组件库",
     connect: {
         title: "跟我联系",
         subtitle: "欢迎随时联系我或者在社交媒体上关注我。"

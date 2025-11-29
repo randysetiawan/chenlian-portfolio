@@ -90,6 +90,8 @@ const en = {
         sendBtn: "Send Message"
     },
     buildTech: "Built using these technologies",
+    vueJs: "Vue.js - Is a Progressive JavaScript Framework",
+    bootstrap: "Bootstrap 5 - Most popular front-end component library",
     connect: {
         title: "Connect With Me",
         subtitle: "Feel free to reach out or follow me on social media."

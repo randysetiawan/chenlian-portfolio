@@ -23,7 +23,7 @@ import DefaultInfoCard from "../../../examples/cards/infoCards/DefaultInfoCard.v
               :description="$t('services.descBack')"
               :action="[
                 {
-                  route: './/sections/page-sections/hero-sections.html',
+                  route: '#contact-me',
                   label: $t('contactMe'),
                 },
               ]"

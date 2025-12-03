@@ -35,7 +35,7 @@ import imgInternshipCompletion from "@/assets/img/internshipcompletion.jpeg";
             <div class="col-md-6 mt-md-0 mt-5">
               <ExampleCard
                 class="min-height-250 max-height-250 shadow-lg"
-                title="72nd Bina Nusantara Graduation 2025"
+                :title="$t('highlights.pic1title')"
                 :image=imgBinusGraduation
                 route="https://graduation.apps.binus.ac.id/editions/wisuda-72"
               />
@@ -43,7 +43,7 @@ import imgInternshipCompletion from "@/assets/img/internshipcompletion.jpeg";
             <div class="col-md-6 mt-md-0 mt-5">
               <ExampleCard
                 class="min-height-250 max-height-250 shadow-lg"
-                title="3rd International Conference in Advances in Power, Signal, and Information Technology 2025"
+                :title="$t('highlights.pic2title')"
                 :image=imgApsit2025
                 route="https://apsit.co.in"
               />
@@ -53,7 +53,7 @@ import imgInternshipCompletion from "@/assets/img/internshipcompletion.jpeg";
             <div class="col-md-6 mt-md-0 mt-5">
               <ExampleCard
                 class="min-height-250 max-height-250 shadow-lg"
-                title="Bina Nusantara Research Paper Expo 2025"
+                :title="$t('highlights.pic3title')"
                 :image="imgBinusThesisDefense"
                 route="https://sis.binus.ac.id/2025/02/11/expo-artikel-ilmiah-2025-semester-ganjil-school-of-information-systems"
               />
@@ -61,7 +61,7 @@ import imgInternshipCompletion from "@/assets/img/internshipcompletion.jpeg";
             <div class="col-md-6 mt-md-0 mt-5">
               <ExampleCard
                 class="min-height-250 max-height-250 shadow-lg"
-                title="Bina Nusantara Enrichment Program - Internship 2023 - 2024"
+                :title="$t('highlights.pic4title')"
                 :image="imgInternshipCompletion"
                 route="https://binus.ac.id/binusian-journey/track-certified-internship"
               />

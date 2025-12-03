@@ -48,10 +48,10 @@ export default {
       <img class="w-100" :src="image" :alt="title" loading="lazy" />
     </div>
     <div class="mt-2 ms-2">
-      <h6 class="mb-0">{{ title }}</h6>
-      <p class="text-secondary text-sm font-weight-normal">
+      <h6 class="mb-0">{{ $t(title) }}</h6>
+      <!-- <p class="text-secondary text-sm font-weight-normal">
         {{ subtitle }}
-      </p>
+      </p> -->
     </div>
   </a>
 </template>

@@ -75,7 +75,21 @@ const en = {
     collections: {
         badge: "Collections",
         title: "Huge collection of sections",
-        subtitle: "Explore my key projects, earned certifications, and techincal skills that define my work."
+        subtitle: "Explore my key projects, earned certifications, and techincal skills that define my work.",
+        projects: "Projects",
+        projectsDesc: "A curated selection of work that highlights my capabilities as a developer.",
+        certifications: "Certifications",
+        certificationsDesc: "Professional credentials earned through continuous learning and skill development.",
+        skills: "Skills",
+        skillsDesc: "Technologies and tools I use to build modern applications.",
+    },
+    highlights: {
+        badge: "Highlights",
+        title: "Achievements & Accomplishments",
+        subtitle1: "A quick overview of important milestones I've achieved throughout",
+        subtitle2: "my academic and professional journey.",
+        title2: "Professional Achievements & Educational Accomplishments",
+        subtitle3: "Each tile represents an important milestone that shaped my skills, mindset, and technical foundation."
     },
     contact: {
         title: "Contact me",
@@ -89,6 +103,8 @@ const en = {
         problemPlaceholder: "Describe your problem here",
         sendBtn: "Send Message"
     },
+    readyTo: "Ready to take your project to the next level?",
+    readyToDesc: "If you're looking for someone who can bring ideas to life with clean, reliable, and thoughtful development — I'd love to help. Click the button below and let's build something great together.",
     buildTech: "Built using these technologies",
     vueJs: "Vue.js - Is a Progressive JavaScript Framework",
     bootstrap: "Bootstrap 5 - Most popular front-end component library",

@@ -17,12 +17,12 @@ import imgInternshipCompletion from "@/assets/img/internshipcompletion.jpeg";
         <div class="row text-center my-sm-5 mt-5">
           <div class="col-lg-6 mx-auto">
             <MaterialBadge color="success" class="mb-3"
-              >Highlights</MaterialBadge
+              >{{ $t('highlights.badge') }}</MaterialBadge
             >
-            <h2 class="">Achievements & Accomplishments</h2>
+            <h2 class="">{{ $t('highlights.title') }}</h2>
             <p class="lead">
-              A quick overview of important milestones I've achieved throughout <br />
-              my academic and professional journey.
+              {{ $t('highlights.subtitle1') }} <br />
+              {{ $t('highlights.subtitle2') }}
             </p>
           </div>
         </div>
@@ -71,10 +71,10 @@ import imgInternshipCompletion from "@/assets/img/internshipcompletion.jpeg";
         <div class="col-md-3 mx-auto mt-md-0 mt-3">
           <div class="position-sticky" style="top: 100px !important">
             <h3>
-              Professional Achievements & Educational Accomplishments
+              {{ $t('highlights.title2') }}
             </h3>
             <h6 class="text-secondary font-weight-normal">
-              Each tile represents an important milestone that shaped my skills, mindset, and technical foundation.
+              {{ $t('highlights.subtitle3') }}
             </h6>
           </div>
         </div>

@@ -78,42 +78,7 @@ onUnmounted(() => {
         <PresentationExperienceEducation />
         <PresentationExample :data="data" />
         <PresentationPages />
-        <!-- <BuiltByDevelopers /> -->
-
-        <!-- <div class="container">
-            <div class="row">
-                <div class="col-lg-4">
-                    <FilledInfoCard class="p-4" :color="{ text: 'white', background: 'bg-gradient-success' }"
-                        :icon="{ component: 'flag', color: 'white' }" title="Getting Started"
-                        description="Check the possible ways of working with our product and the necessary files for building your own project."
-                        :action="{
-                            route:
-                                'https://www.creative-tim.com/learning-lab/vue/overview/material-kit/',
-                            label: { text: 'Let\'s start', color: 'white' }
-                        }" />
-                </div>
-                <div class="col-lg-4">
-                    <FilledInfoCard class="px-lg-1 mt-lg-0 mt-4 p-4" height="h-100"
-                        :icon="{ component: 'precision_manufacturing', color: 'success' }" title="Plugins" description="Get inspiration and have an overview about the plugins that we
-                used to create the Material Kit." :action="{
-                    route:
-                        'https://www.creative-tim.com/learning-lab/vue/input/material-kit/',
-                    label: { text: 'Read more' }
-                }" />
-                </div>
-                <div class="col-lg-4">
-                    <FilledInfoCard class="px-lg-1 mt-lg-0 mt-4 p-4"
-                        :icon="{ component: 'receipt_long', color: 'success' }" title="Utility Classes" description="Material Kit is giving you a lot of pre-made elements. For those
-                who want flexibility, we included many utility classes." :action="{
-                    route:
-                        'https://www.creative-tim.com/learning-lab/vue/utilities/material-kit/',
-                    label: { text: 'Read more' }
-                }" />
-                </div>
-            </div>
-        </div> -->
-        <PresentationTestimonials />
-
+        <!-- <PresentationTestimonials /> -->
         <div class="container-fluid mt-sm-5 border-radius-xl" :style="{
             background: 'linear-gradient(195deg, rgb(66, 66, 74), rgb(25, 25, 25))'
         }">
@@ -126,15 +91,13 @@ onUnmounted(() => {
                         <div class="d-flex justify-content-center p-5">
                             <div class="col-lg-8 ms-lg-5 text-center">
                                 <h3 class="text-white">
-                                    Ready to take your project to the next level?
+                                    {{ $t('readyTo') }}
                                 </h3>
                                 <p class="text-white text-md">
-                                    If you're looking for someone who can bring ideas to life with clean, reliable, and
-                                    thoughtful development — I'd love to help. Click the button below and let's build
-                                    something great together.
+                                    {{ $t('readyToDesc') }}
                                 </p>
                                 <a href="https://www.creative-tim.com/product/vue-material-kit"
-                                    class="btn btn-sm mb-0 bg-gradient-success px-5 py-3 mt-4">Contact Me</a>
+                                    class="btn btn-sm mb-0 bg-gradient-success px-5 py-3 mt-4">{{ $t('contactMe') }}</a>
                             </div>
                         </div>
                     </div>
@@ -148,11 +111,9 @@ onUnmounted(() => {
                     <h3>{{ $t('buildTech') }}</h3>
                     <div class="d-flex justify-content-center mt-3 flex-wrap">
                         <img :src="logoVue" alt="title" loading="lazy" :style="{ height: '200px' }"
-                            data-bs-toggle="tooltip" data-bs-placement="bottom"
-                            :title="$t('vueJs')" />
+                            data-bs-toggle="tooltip" data-bs-placement="bottom" :title="$t('vueJs')" />
                         <img :src="logoBootstrap" alt="title" loading="lazy" :style="{ height: '200px' }"
-                            data-bs-toggle="tooltip" data-bs-placement="bottom"
-                            :title="$t('bootstrap')" />
+                            data-bs-toggle="tooltip" data-bs-placement="bottom" :title="$t('bootstrap')" />
                     </div>
                 </div>
             </div>
@@ -167,8 +128,8 @@ onUnmounted(() => {
                     <div class="col-lg-5 me-lg-auto my-lg-auto text-lg-end mt-5">
                         <MaterialSocialButton route="https://www.linkedin.com/in/chenlian" component="linkedin"
                             color="linkedin" label="LinkedIn" />
-                            <MaterialSocialButton route="https://github.com/randysetiawan" component="github"
-                            color="github" label="GitHub" />
+                        <MaterialSocialButton route="https://github.com/randysetiawan" component="github" color="github"
+                            label="GitHub" />
                         <MaterialSocialButton route="https://www.instagram.com/chenlian07" component="instagram"
                             color="instagram" label="Instagram" />
                     </div>
@@ -178,5 +139,5 @@ onUnmounted(() => {
         <PresentationContactUs />
     </div>
     <!-- <DefaultFooter /> -->
-     <PresentationFooter/>
+    <PresentationFooter />
 </template>

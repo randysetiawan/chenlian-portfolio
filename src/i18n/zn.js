@@ -51,7 +51,7 @@ const zn = {
         mobileApplicationDeveloper: "移动应用开发员",
         binusUniversity: "建国大学",
         informationSystemsBoS: "信息系统，理学学士",
-        notreDame: "巴黎圣母高中",
+        notreDame: "巴黎圣母高中学",
         socialScienceHSDiploma: "社会科学，高中文凭",
         fullStackKorindoDesc: "使用React.js和Java Spring Boot开发和维护网站应用和后端系统为了支持种植园和棕榈油的运营。",
         mobileAppKorindoDesc: "使用Koin和Hilt开发和维护安卓移动应用为了支持种植园和棕榈油的运营。",
@@ -75,7 +75,21 @@ const zn = {
     collections: {
         badge: "收藏",
         title: "大量部分收藏",
-        subtitle: "了解我关键项目，获得的认证，还有定义我工作的技术技能。"
+        subtitle: "了解我关键项目，获得的认证，还有定义我工作的技术技能。",
+        projects: "项目",
+        projectsDesc: "这些精选项目显示我当开发员的能力。",
+        certifications: "认证",
+        certificationsDesc: "通过一直学习和技能提高获得的专业资格。",
+        skills: "技能",
+        skillsDesc: "我使用来构建现代应用的技术和工具。",
+    },
+    highlights: {
+        badge: "亮点",
+        title: "成就与功绩",
+        subtitle1: "以下是我学术和职业生涯",
+        subtitle2: "中主要里程碑的简要概述。",
+        title2: "专业成就和教育功绩",
+        subtitle3: "每一部分代表重要的里程碑，塑造了我的技能、思维方式和技术基础。"
     },
     contact: {
         title: "联系我",
@@ -89,6 +103,8 @@ const zn = {
         problemPlaceholder: "这里描述问题",
         sendBtn: "发消息"
     },
+    readyTo: "准备好将您的项目提升到一个新的水平了吗？",
+    readyToDesc: "如果您正在找一个能简单、可靠和全面的方式地把您的想法变为现实的开发员，我非常高兴来帮助。点击下面的按钮，让我们一起制造一个卓越的产品。",
     buildTech: "使用这些技术被构建",
     vueJs: "Vue.js - 渐进式 JavaScript 框架",
     bootstrap: "Bootstrap 5 - 最流行的前端组件库",

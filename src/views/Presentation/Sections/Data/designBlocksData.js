@@ -57,9 +57,9 @@ import imgMsSqlServer from "@/assets/img/mssqlserver.png";
 
 export default [
   {
-    heading: "Projects",
+    heading: "collections.projects",
     description:
-      "A selection of 45 page sections that fit perfectly in any combination",
+      "collections.projectsDesc",
     items: [
       {
         image: imgAimsProject,
@@ -118,8 +118,8 @@ export default [
     ]
   },
   {
-    heading: "Certifications",
-    description: "30+ components that will help go through the pages",
+    heading: "collections.certifications",
+    description: "collections.certificationsDesc",
     items: [
       {
         image: imgLogicalProgrammingWithCpp,
@@ -184,10 +184,9 @@ export default [
     ]
   },
   {
-    heading: "Skills",
+    heading: "collections.skills",
+    description: "collections.skillsDesc",
     isSkill: true,
-    description:
-      "50+ elements that you need for text manipulation and insertion",
     items: [
       {
         image: imgBootstrap,

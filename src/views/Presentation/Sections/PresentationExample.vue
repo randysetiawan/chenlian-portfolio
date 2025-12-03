@@ -71,9 +71,9 @@ export default {
         :class="`row ${index != 0 && index != -1 ? 'pt-lg-6' : ''}`" :key="heading">
         <div :class="`${col1 ?? 'col-lg-3'}`">
           <div class="position-sticky pb-lg-5 pb-3 mt-lg-0 mt-5 ps-2" style="top: 100px">
-            <h3>{{ heading }}</h3>
+            <h3>{{ $t(heading) }}</h3>
             <h6 class="text-secondary font-weight-normal pe-3">
-              {{ description }}
+              {{ $t(description) }}
             </h6>
           </div>
         </div>

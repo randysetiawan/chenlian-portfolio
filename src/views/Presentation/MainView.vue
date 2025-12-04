@@ -6,14 +6,14 @@ import NavbarDefault from "../..//examples/navbars/NavbarDefault.vue";
 import Header from "../../examples/Header.vue";
 
 // sections
-import PresentationCounter from "./Sections/PresentationCounter.vue";
-import PresentationPages from "./Sections/PresentationPages.vue";
-import PresentationExample from "./Sections/PresentationExample.vue";
-import PresentationInformation from "./Sections/PresentationInformation.vue";
-import PresentationAbout from "./Sections/PresentationAbout.vue";
-import PresentationExperienceEducation from "./Sections/PresentationExperienceEducation.vue";
-import PresentationContactUs from "./Sections/PresentationContactUs.vue";
-import PresentationFooter from "./Sections/PresentationFooter.vue";
+import Counter from "./Sections/Counter.vue";
+import Highlights from "./Sections/Highlights.vue";
+import Collections from "./Sections/Collections.vue";
+import Services from "./Sections/Services.vue";
+import AboutMe from "./Sections/AboutMe.vue";
+import ExperienceEducation from "./Sections/ExperienceEducation.vue";
+import ContactMe from "./Sections/ContactMe.vue";
+import Footer from "./Sections/Footer.vue";
 import ReadyTo from "./Sections/ReadyTo.vue";
 import BuildStack from "./Sections/BuildStack.vue";
 import SocialMedia from "./Sections/SocialMedia.vue";
@@ -28,11 +28,11 @@ import vueMkHeader from "@/assets/img/vue-mk-header.jpg";
 //hooks
 const body = document.getElementsByTagName("body")[0];
 onMounted(() => {
-    body.classList.add("presentation-page");
+    body.classList.add("main-page");
     body.classList.add("bg-gray-200");
 });
 onUnmounted(() => {
-    body.classList.remove("presentation-page");
+    body.classList.remove("main-page");
     body.classList.remove("bg-gray-200");
 });
 </script>
@@ -62,16 +62,16 @@ onUnmounted(() => {
         </div>
     </Header>
     <div class="card card-body blur shadow-blur mx-3 mx-md-4 mt-n6">
-        <PresentationCounter />
-        <PresentationAbout />
-        <PresentationInformation />
-        <PresentationExperienceEducation :data="experienceEducationData" />
-        <PresentationExample :data="collectionsData" />
-        <PresentationPages />
+        <Counter />
+        <AboutMe />
+        <Services />
+        <ExperienceEducation :data="experienceEducationData" />
+        <Collections :data="collectionsData" />
+        <Highlights />
         <ReadyTo />
         <BuildStack />
         <SocialMedia />
-        <PresentationContactUs />
+        <ContactMe />
     </div>
-    <PresentationFooter />
+    <Footer />
 </template>

@@ -1,4 +1,3 @@
-<script setup></script>
 <template>
     <footer class="footer py-5">
         <div class="container z-index-1 position-relative">

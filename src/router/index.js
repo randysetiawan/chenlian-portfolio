@@ -1,13 +1,13 @@
 import { createRouter, createWebHistory } from "vue-router";
-import PresentationView from "../views/Presentation/PresentationView.vue";
+import MainView from "../views/Presentation/MainView.vue";
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
     {
       path: "/",
-      name: "presentation",
-      component: PresentationView,
+      name: "main",
+      component: MainView,
     }
   ],
 });

@@ -20,8 +20,8 @@ import wavesWhite from "@/assets/img/waves-white.svg";
                             <p class="text-white text-md">
                                 {{ $t('readyToDesc') }}
                             </p>
-                            <a href="#contact-me" class="btn btn-sm mb-0 bg-gradient-success px-5 py-3 mt-4">{{
-                                $t('contactMe') }}</a>
+                            <a href="#contact-me" class="btn btn-sm mb-0 bg-gradient-success px-5 py-3 mt-4">
+                                {{ $t('contactMe') }}</a>
                         </div>
                     </div>
                 </div>

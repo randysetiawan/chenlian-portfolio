@@ -1,7 +1,7 @@
 <script setup>
-import ExampleCard from "../Components/ExampleCard.vue";
+import ProjectCertificationCard from "../Components/ProjectCertificationCard.vue";
 import MaterialBadge from "../../../components/MaterialBadge.vue";
-import ExampleSkill from "../Components/ExampleSkill.vue";
+import Skill from "../Components/Skill.vue";
 
 defineProps({
   data: {
@@ -81,13 +81,13 @@ export default {
           <div :class="`row ${index != 0 ? 'mt-3' : ''}`">
             <div v-if="!isSkill" class="col-md-4 mt-md-0" v-for="{ image, title, subtitle, route } in items"
               :key="title">
-              <ExampleCard class="min-height-160 max-height-160 shadow-lg mt-4" :image="image" :title="title"
-                :subtitle="subtitle" :route="route" :isSkill="isSkill" />
+              <ProjectCertificationCard class="min-height-160 max-height-160 shadow-lg mt-4" :image="image"
+                :title="title" :subtitle="subtitle" :link="route" />
             </div>
             <div v-else class="row mt-3">
               <div class="col-6 col-md-4 col-lg-2 d-flex justify-content-center"
                 v-for="{ image, title, subtitle, route } in items" :key="title">
-                <ExampleSkill class="mt-4" :image="image" :title="title" :subtitle="subtitle" :link="route" />
+                <Skill class="mt-4" :image="image" :title="title" :subtitle="subtitle" :link="route" />
               </div>
             </div>
           </div>

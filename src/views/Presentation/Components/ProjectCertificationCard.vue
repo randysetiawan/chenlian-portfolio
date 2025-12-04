@@ -9,9 +9,9 @@ import { useAppStore } from "@/stores";
 const store = useAppStore();
 
 defineProps({
-  route: {
+  link: {
     type: String,
-    required: true, // external URL
+    required: true,
   },
   image: {
     type: String,
@@ -24,10 +24,6 @@ defineProps({
   subtitle: {
     type: String,
     default: "",
-  },
-  pro: {
-    type: Boolean,
-    default: false,
   }
 });
 
@@ -43,7 +39,7 @@ export default {
 </script>
 
 <template>
-  <a :href="route" target="_blank" rel="noopener noreferrer">
+  <a :href="link" target="_blank" rel="noopener noreferrer">
     <div class="card move-on-hover" v-bind="$attrs">
       <img class="w-100" :src="image" :alt="title" loading="lazy" />
     </div>

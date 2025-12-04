@@ -1,18 +1,3 @@
-/*
-=========================================================
-* Vue Material Kit 2 - v1.0.0
-=========================================================
-
-* Product Page: https://www.creative-tim.com/product/vue-material-kit-pro
-* Copyright 2021 Creative Tim (https://www.creative-tim.com)
-
-Coded by www.creative-tim.com
-
- =========================================================
-
-* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-*/
-
 import imgAimsProject from "@/assets/img/aims_project.jpeg";
 import imgDmlsProject from "@/assets/img/dmls_project.jpeg";
 import imgKtaProject from "@/assets/img/kta_project.jpeg";
@@ -161,7 +146,7 @@ export default [
         image: imgCertificateOfCompletion,
         title: "collections.nar",
         subtitle: "Succesfully completed NEO e-learning training program",
-        route: "https://drive.google.com/file/d/1RMuTLJWEtLaNSJp4BHSt7vpvL_ScMyJZ/view",  
+        route: "https://drive.google.com/file/d/1RMuTLJWEtLaNSJp4BHSt7vpvL_ScMyJZ/view",
       },
       {
         image: imgHsk2,
@@ -173,7 +158,7 @@ export default [
         image: imgCertificateOfPresentation,
         title: "collections.apsit",
         subtitle: "For participating and presenting the paper about users adoption of MLFF system",
-        route: "https://drive.google.com/file/d/1dny7vTJHClr_NxNuJqv8xOdVXB7dqABQ/view",  
+        route: "https://drive.google.com/file/d/1dny7vTJHClr_NxNuJqv8xOdVXB7dqABQ/view",
       },
       {
         image: imgHsk3AndHskk7,

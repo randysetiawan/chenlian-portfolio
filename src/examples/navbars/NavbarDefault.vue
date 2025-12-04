@@ -1,7 +1,7 @@
 <script setup>
 import { ref, watch } from "vue";
 import { useWindowsWidth } from "../../assets/js/useWindowsWidth";
-import LanguageSwitcher from "../LanguageSwitcher.vue";
+import LanguageSwitcher from "@/components/LanguageSwitcher.vue";
 
 const props = defineProps({
   action: {

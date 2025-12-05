@@ -3,10 +3,10 @@ import ProjectCertificationCard from "../Components/ProjectCertificationCard.vue
 import MaterialBadge from "../../../components/MaterialBadge.vue";
 
 // images
-import imgBinusGraduation from "@/assets/img/binusgraduation.jpg";
-import imgApsit2025 from "@/assets/img/apsit2025.png";
-import imgBinusThesisDefense from "@/assets/img/binusthesisdefense.jpeg";
-import imgInternshipCompletion from "@/assets/img/internshipcompletion.jpeg";
+import imgBinusGraduation from "@/assets/img/highlights/binusgraduation.jpg";
+import imgApsit2025 from "@/assets/img/highlights/apsit2025.png";
+import imgBinusThesisDefense from "@/assets/img/highlights/binusthesisdefense.jpeg";
+import imgInternshipCompletion from "@/assets/img/highlights/internshipcompletion.jpeg";
 
 </script>
 <template>

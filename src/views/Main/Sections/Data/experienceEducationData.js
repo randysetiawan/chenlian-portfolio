@@ -1,6 +1,6 @@
-import korindoLogo from "@/assets/img/korindo.png"
-import binusLogo from "@/assets/img/binus.png"
-import notreDameLogo from "@/assets/img/notredame.png"
+import korindoLogo from "@/assets/img/companySchool/korindo.png"
+import binusLogo from "../../../../assets/img/companySchool/binus_logo.png"
+import notreDameLogo from "@/assets/img/companySchool/notredame.png"
 
 export default {
     experience: [

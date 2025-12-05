@@ -10,7 +10,7 @@ import DefaultCounterCard from "../../../examples/cards/counterCards/DefaultCoun
           <div class="row">
             <div class="col-md-4 position-relative">
               <DefaultCounterCard
-                color="success"
+                color="primary"
                 :title="$t('featured.projectTitle')"
                 :description="$t('featured.projectDesc')"
                 :count="10"
@@ -21,7 +21,7 @@ import DefaultCounterCard from "../../../examples/cards/counterCards/DefaultCoun
             </div>
             <div class="col-md-4 position-relative">
               <DefaultCounterCard
-                color="success"
+                color="primary"
                 :title="$t('featured.skillTitle')"
                 :description="$t('featured.skillDesc')"
                 :count="15"
@@ -32,7 +32,7 @@ import DefaultCounterCard from "../../../examples/cards/counterCards/DefaultCoun
             </div>
             <div class="col-md-4">
               <DefaultCounterCard
-                color="success"
+                color="primary"
                 :title="$t('featured.certificationTitle')"
                 :description="$t('featured.certificationDesc')"
                 :count="9"

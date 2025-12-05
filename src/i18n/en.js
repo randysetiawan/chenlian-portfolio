@@ -26,7 +26,7 @@ const en = {
         secondDesc: "Eager to improve and make a meaningful impact in the tech industry, I'm passionate about leveraging technology to improve lives by creating innovative solutions that drive positive change."
     },
     services: {
-        title1front: "Crrafting Digital",
+        title1front: "Crafting Intelligent",
         title2front: "Digital Experiences",
         descFront: "I build scalable software systems with a strong balance of engineering, analysis, and human-centered design. I bring ideas into polished, functional, and user-friendly products.",
         titleBack: "Let's Connect",

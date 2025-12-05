@@ -27,7 +27,7 @@ export default {
             <div class="row">
                 <div class="row justify-content-center text-center my-sm-5">
                     <div class="col-lg-6">
-                        <MaterialBadge color="success" class="mb-3">{{ $t('experience.badge') }}</MaterialBadge>
+                        <MaterialBadge color="primary" class="mb-3">{{ $t('experience.badge') }}</MaterialBadge>
                         <h2 class="text-dark mb-0">{{ $t('experience.title') }}</h2>
                         <p class="lead">
                             {{ $t('experience.subtitle') }}
@@ -49,7 +49,7 @@ export default {
                                     <!-- LEFT SIDE -->
                                     <div>
                                         <h5 class="font-weight-bold mb-1">{{ $t(job.role) }}</h5>
-                                        <p class="text-success font-weight-bold mb-1">{{ $t(job.company) }}</p>
+                                        <p class="text-primary font-weight-bold mb-1">{{ $t(job.company) }}</p>
                                         <p class="text-muted small mb-2">
                                             {{
                                                 $i18n.locale === 'en'
@@ -80,7 +80,7 @@ export default {
                                     <!-- LEFT SIDE -->
                                     <div>
                                         <h5 class="font-weight-bold mb-1">{{ $t(edu.school) }}</h5>
-                                        <p class="text-success font-weight-bold mb-1">{{ $t(edu.degree) }}</p>
+                                        <p class="text-primary font-weight-bold mb-1">{{ $t(edu.degree) }}</p>
                                         <p class="text-muted small mb-2">
                                             {{
                                                 $i18n.locale === 'en'

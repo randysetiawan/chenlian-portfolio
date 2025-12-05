@@ -23,21 +23,15 @@ defineProps({
 });
 </script>
 <template>
-  <div
-    class="front front-background"
-    :style="{
-      backgroundImage: `url(${image})`,
-      backgroundSize: 'cover',
-    }"
-  >
+  <div class="front front-background" :style="{
+    backgroundImage: `url(${image})`,
+    backgroundSize: 'cover',
+  }">
     <div class="card-body py-7 text-center">
       <i v-if="icon" class="material-icons text-white text-4xl my-3">{{
         icon
       }}</i>
-      <p
-        v-if="label"
-        class="text-sm text-white text-uppercase font-weight-normal"
-      >
+      <p v-if="label" class="text-sm text-white text-uppercase font-weight-normal">
         {{ label }}
       </p>
       <h3 class="text-white" v-html="title" />
@@ -47,3 +41,10 @@ defineProps({
     </div>
   </div>
 </template>
+
+<style>
+.front::after {
+  background-image: linear-gradient(195deg, #EC407A, #D81B60) !important;
+  opacity: 0.85 !important;
+}
+</style>

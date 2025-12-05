@@ -11,7 +11,7 @@ const props = defineProps({
     label: String,
     default: () => ({
       route: "",
-      color: "bg-gradient-success",
+      color: "bg-gradient-primary",
       label: "Contact me"
     })
   },

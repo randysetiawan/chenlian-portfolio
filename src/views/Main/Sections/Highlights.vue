@@ -15,7 +15,7 @@ import imgInternshipCompletion from "@/assets/img/highlights/internshipcompletio
       <div class="row">
         <div class="row text-center my-sm-5 mt-5">
           <div class="col-lg-6 mx-auto">
-            <MaterialBadge color="success" class="mb-3">{{ $t('highlights.badge') }}</MaterialBadge>
+            <MaterialBadge color="primary" class="mb-3">{{ $t('highlights.badge') }}</MaterialBadge>
             <h2 class="">{{ $t('highlights.title') }}</h2>
             <p class="lead">
               {{ $t('highlights.subtitle1') }} <br />

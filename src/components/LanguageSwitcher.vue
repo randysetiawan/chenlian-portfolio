@@ -12,12 +12,12 @@
 
     <ul class="dropdown-menu mt-2 shadow-sm border-radius-lg">
       <li>
-        <a class="dropdown-item d-flex align-items-center" @click="setLang('en')">
+        <a id="langItem" class="dropdown-item d-flex align-items-center" @click="setLang('en')">
           <img :src="flags.en" class="flag-icon me-2" /> {{ $t('english') }}
         </a>
       </li>
       <li>
-        <a class="dropdown-item d-flex align-items-center" @click="setLang('zn')">
+        <a id="langItem" class="dropdown-item d-flex align-items-center" @click="setLang('zn')">
           <img :src="flags.zn" class="flag-icon me-2" /> {{ $t('chinese') }}
         </a>
       </li>
@@ -102,6 +102,11 @@ export default {
 /* Hide Bootstrap arrow */
 .dropdown-toggle::after {
   display: none !important;
+}
+
+/* Pointer cursor */
+#langItem:hover {
+  cursor: pointer;
 }
 
 /* align when mobile size */

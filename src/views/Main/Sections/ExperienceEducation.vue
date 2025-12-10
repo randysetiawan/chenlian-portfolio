@@ -62,8 +62,10 @@ export default {
                                         <p class="mb-0">{{ $t(job.desc) }}</p>
                                     </div>
                                     <!-- RIGHT SIDE: COMPANY LOGO -->
-                                    <img v-if="job.logo" :src="job.logo" alt="Company Logo" class="ms-3"
-                                        style="width: 55px; height: 55px; object-fit: contain;" />
+                                    <a v-if="job.logo" :href="job.link" target="_blank" rel="noopener noreferrer">
+                                        <img :src="job.logo" alt="Company Logo" class="ms-3"
+                                            style="width: 55px; height: 55px; object-fit: contain;" />
+                                    </a>
                                 </div>
                             </div>
                         </div>
@@ -93,8 +95,10 @@ export default {
                                         <p class="mb-0">{{ $t(edu.desc) }}</p>
                                     </div>
                                     <!-- RIGHT SIDE: SCHOOL LOGO -->
-                                    <img v-if="edu.logo" :src="edu.logo" alt="School Logo" class="ms-3"
-                                        style="width: 55px; height: 55px; object-fit: contain;" />
+                                    <a v-if="edu.logo" :href="edu.link" target="_blank" rel="noopener noreferrer">
+                                        <img :src="edu.logo" alt="Company Logo" class="ms-3"
+                                            style="width: 55px; height: 55px; object-fit: contain;" />
+                                    </a>
                                 </div>
                             </div>
                         </div>

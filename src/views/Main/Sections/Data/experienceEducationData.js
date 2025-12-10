@@ -12,6 +12,7 @@ export default {
             startYear: "2024",
             endYear: "2025",
             desc: "experience.fullStackKorindoDesc",
+            link: "https://www.korindo.co.id",
             logo: korindoLogo
         },
         {
@@ -22,6 +23,7 @@ export default {
             startYear: "2023",
             endYear: "2024",
             desc: "experience.mobileAppKorindoDesc",
+            link: "https://www.korindo.co.id",
             logo: korindoLogo
         }
     ],
@@ -34,6 +36,7 @@ export default {
             startYear: "2020",
             endYear: "2025",
             desc: "experience.binusDesc",
+            link: "https://binus.ac.id",
             logo: binusLogo
         },
         {
@@ -44,6 +47,7 @@ export default {
             startYear: "2017",
             endYear: "2020",
             desc: "experience.ndDesc",
+            link: "https://notredame.sch.id",
             logo: notreDameLogo
         }
     ],

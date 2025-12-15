@@ -42,8 +42,8 @@ This portfolio is designed to:
 
 **HELPFUL LINKS**
 
-- View [Github Repository](https://github.com/creativetimofficial/vue-material-kit)
-- Check [FAQ Page](https://www.creative-tim.com/faq)
+- View [Github Repository](https://github.com/randysetiawan/chenlian-portfolio)
+- View [LinkedIn](https://www.linkedin.com/in/chenlian)
 
 #### Special thanks
 

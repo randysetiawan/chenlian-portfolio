@@ -8,7 +8,7 @@ This is my personal portfolio website built with Vue Material Kit 2, inspired by
 
 **About This Website**
 
-This is a personal Single Page Application (SPA) built with Vue 3 and Material Components. This project serves as a comprehensive digital portfolio to showcase my professional experience, projects, skills, certifications, and achievements in a clean, modern, and user-focused interface.
+My personal portfolio website is a Single Page Application (SPA) built with Vue 3 and Material Components. This project serves as a comprehensive digital portfolio to showcase my professional experience, projects, skills, certifications, and achievements in a clean, modern, and user-focused interface.
 
 The website is designed to be visually engaging, highly structured, and easy to navigate, while reflecting my approach to building scalable, maintainable, and human-centered software solutions.
 

@@ -49,7 +49,7 @@ This portfolio is designed to:
 
 During the development of this portfolio, I have used many existing resources from awesome developers. I want to thank them for providing their tools open source:
 
-- [Vue Material Kit 2](https://www.creative-tim.com/product/vue-material-kit/) - Amazing design system inspired by Material Design
+- [Vue Material Kit 2](https://www.creative-tim.com/product/vue-material-kit/) - Amazing design system inspired by Material Design.
 - [VueJS 3](https://vuejs.org/) - An approachable, performant and versatile framework for building web user interfaces.
 - [Bootstrap 5](https://getbootstrap.com/) - Powerful, extensible, and feature-packed frontend toolkit.
 
